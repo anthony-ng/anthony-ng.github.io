@@ -25,11 +25,9 @@ Here are some features:
 * After a tree reaches fruit bearing age, it can grow fruit.
 * A tree grows a random amount of oranges each year it ages (after reaching fruit bearing age)
 * An orange has a random diameter.
-* You can pick all the fruit that grows each year and put it in a basket.
-* You can know the number of fruit in the basket and the average diameter of that fruit at any time.
+* You can pick all the fruit that grows each year. 
 * Any un-picked fruit dies when the tree ages again.
-* The fruit basket is emptied each year.
-* A tree dies after it ages for it's max age years and can no longer bear fruit.
+* A tree dies after it ages for it's max age years and can no longer bear fruit.  
 
 ## Releases
 
@@ -41,9 +39,9 @@ tree.  We will model all of this using JavaScript functions and
 Plain-Old-JavaScript-Objects(aka Object-Literals).
 
 * One by one, make the
-  [plain-old-js-objects-spec](spec/javascripts/plain_old_js_objects_spec.js)
+  [plain-old-js-objects-spec](./spec/javascripts/plain_old_js_objects_spec.js)
   pass without using prototypes or constructor functions. Use the
-  [plain-old-js-objects](public/javascripts/plain-old-js-objects.js) file.
+  [plain-old-js-objects](./javascripts/plain-old-js-objects.js) file.
 * Refactor your javascript source files!
 * Refactor your spec files!
 
@@ -75,7 +73,11 @@ up to you.
 
 
 ### Release 4
-* Have some fun.  Can you add a pear tree? Can you do it TDD?
+
+* Have some fun.  Can you add a pear tree? Can you do it TDD? 
+* Can you pick all the fruit that grows each year and put it in a basket?
+* Can you know the number of fruit in the basket and the average diameter of that fruit at any time?
+
 
 Submit a Pull Request after each Release.
 

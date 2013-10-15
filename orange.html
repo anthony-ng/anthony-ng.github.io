@@ -2,21 +2,23 @@
 <html>
 <head>
   <title>Orange Trees</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/application.css">
+
+
   <script src="javascripts/vendor/jquery.js"></script>
   <script src="javascripts/src/typed-objects.js"></script>
   <!-- feel free to replace typed-objects with the plain-old-js-objects,
   depending on how you implement your view.js -->
   <script src="javascripts/src/view.js"></script>
-  <style>
-    #orange-tree-template { display: none; }
-    // We don't want to actually see this on the page
+  
 
-  </style>
 </head>
 <body>
 <header>
   Welcome to Orange Trees
 </header>
+
 <div class="grove">
   <button class="plant">Plant Orange Tree</button>
 </div>
@@ -28,7 +30,9 @@
     <p class="fruit-count">0</p>
     <button class="pick">Pick!</button>
     <button class="age">Age!</button>
+    <div class="display-tree-big"><div>
   </div>
 </div>
+
 </body>
 </html>
