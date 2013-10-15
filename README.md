@@ -4,7 +4,7 @@
 1. [Releases](#releases)
 1. [Helpful Resources](#helpful-resources)
 
-#### ** DO NOT MERGE PULL REQUESTS INTO THIS REPOSITORY **
+#### ** DO NOT MERGE SOLUTION PULL REQUESTS INTO THIS REPOSITORY **
 
 ## Learning Objectives
 1. Use Jasmine to TDD JavaScript code.
@@ -35,27 +35,44 @@ Here are some features:
 
 
 ### Release 1
-In this release we will create an orange tree, age the tree, grow oranges on the tree, and pick fruit off the tree.  We will model all of this using JavaScript functions and Plain-Old-JavaScript-Objects, (or Object-Literals).
+Here we'll be building objects with functions. In this release we will create an
+orange tree, age the tree, grow oranges on the tree, and pick fruit off the
+tree.  We will model all of this using JavaScript functions and
+Plain-Old-JavaScript-Objects(aka Object-Literals).
 
-* Using tryJasmine, make the [plain-old-js-objects-spec](specs/plain_old_js_objects_spec.js) pass without using prototypes or constructor functions.Save your results to the [plain-old-js-objects](src/plain-old-js-objects.js) file.
-
-* Refactor each of your solutions for cleaner code.
-* Refactor each of the spec files for cleaner test code.
+* One by one, make the
+  [plain-old-js-objects-spec](spec/javascripts/plain_old_js_objects_spec.js)
+  pass without using prototypes or constructor functions. Use the
+  [plain-old-js-objects](public/javascripts/plain-old-js-objects.js) file.
+* Refactor your javascript source files!
+* Refactor your spec files!
 
 ### Release 2
-In this release we will AGAIN create an orange tree, age the tree, grow oranges on the tree, and pick fruit off the tree.  We will model all of this using JavaScript constructor functions and Prototypes.
+In this release we will AGAIN create an orange tree, age the tree, grow oranges
+on the tree, and pick fruit off the tree.  We will model all of this using
+JavaScript constructor functions and Prototypes.
 
-* Make the [typed-objects-spec](specs/typed-objects-spec.js) pass using
-  prototype inheritance and constructor functions. Save your results to the
-  [typed-objects](src/typed-objects.js) file.
+* One by one, copy the plain old js objects spec into the typed objects spec.
+  However, change them to use the `new OrangeTree` and `prototype` syntax as you
+  do. use the `javascripts/typed-js-objects.js` file.
+* Refactor your javascript source files!
+* Refactor your spec files!
 
-* Refactor each of your solutions for cleaner code.
-* Refactor each of the spec files for cleaner test code.
 
 ### Release 3
-Now let's add some interaction with the DOM.
+Now let's add some interaction with the DOM. Write your DOM interaction code in
+`view.js`. Use either the objects you built in release 1 or 2.
 
-* Add jQuery to make the tests in [jquery-spec](specs/jquery-spec.js) pass.
+Feel free to either write the javascript first or the tests first.  It's totally
+up to you.
+
+* Write a test that allows you to `plant` a tree by clicking a button. It should
+  be visible on the screen somehow. Make it pass
+* Write a test that allows you to `pick` a tree off an orange by clicking a
+  button. Make it pass.
+* Write a test that allows you to `age` a tree by clicking a button. Make it
+  pass.
+
 
 ### Release 4
 * Have some fun.  Can you add a pear tree? Can you do it TDD?
