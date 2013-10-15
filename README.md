@@ -27,7 +27,6 @@ Here are some features:
 * An orange has a random diameter.
 * You can pick all the fruit that grows each year. 
 * Any un-picked fruit dies when the tree ages again.
-<<<<<<< HEAD
 * A tree dies after it ages for it's max age years and can no longer bear fruit.  
 
 ## Releases
@@ -40,9 +39,9 @@ tree.  We will model all of this using JavaScript functions and
 Plain-Old-JavaScript-Objects(aka Object-Literals).
 
 * One by one, make the
-  [plain-old-js-objects-spec](spec/javascripts/plain_old_js_objects_spec.js)
+  [plain-old-js-objects-spec](./spec/javascripts/plain_old_js_objects_spec.js)
   pass without using prototypes or constructor functions. Use the
-  [plain-old-js-objects](public/javascripts/plain-old-js-objects.js) file.
+  [plain-old-js-objects](./javascripts/plain-old-js-objects.js) file.
 * Refactor your javascript source files!
 * Refactor your spec files!
 
