@@ -1,14 +1,14 @@
 describe ("createTree", function(){
-  xit("should return a tree object", function(){
+  it("should return a tree object", function(){
     expect(createTree()).toBeDefined();
-
   });
+
   xit("should return tree with age 0 when created", function(){
     var tree=createTree();
     expect(tree.age).toEqual(0);
   });
   xit ("should have height 0 when created", function(){
-    var tree= createTree();
+    var tree=createTree();
     expect(tree.height).toEqual(0);
   });
   xit ("should have 0 oranges if age < FRUIT_BEARING_AGE", function(){

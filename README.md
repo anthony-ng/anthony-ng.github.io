@@ -4,6 +4,7 @@
 1. [Releases](#releases)
 1. [Helpful Resources](#helpful-resources)
 
+#### ** DO NOT MERGE PULL REQUESTS INTO THIS REPOSITORY **
 
 ## Learning Objectives
 1. Use Jasmine to TDD JavaScript code.
@@ -15,6 +16,8 @@
 ## Summary
 Remember our old friend **Orange Trees** from Ruby? Let's revisit it in
 JavaScript.
+
+Start your test server by running `rake jasmine`
 
 Here are some features:
 * A tree can age.
@@ -30,6 +33,7 @@ Here are some features:
 
 ## Releases
 
+
 ### Release 1
 In this release we will create an orange tree, age the tree, grow oranges on the tree, and pick fruit off the tree.  We will model all of this using JavaScript functions and Plain-Old-JavaScript-Objects, (or Object-Literals).
 
@@ -41,7 +45,9 @@ In this release we will create an orange tree, age the tree, grow oranges on the
 ### Release 2
 In this release we will AGAIN create an orange tree, age the tree, grow oranges on the tree, and pick fruit off the tree.  We will model all of this using JavaScript constructor functions and Prototypes.
 
-* Make the [typed-objects-spec](specs/typed-objects-spec.js) pass using prototype inheritance and constructor functions. Save your results to the [typed-objects](src/typed-objects.js) file.
+* Make the [typed-objects-spec](specs/typed-objects-spec.js) pass using
+  prototype inheritance and constructor functions. Save your results to the
+  [typed-objects](src/typed-objects.js) file.
 
 * Refactor each of your solutions for cleaner code.
 * Refactor each of the spec files for cleaner test code.
