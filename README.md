@@ -7,7 +7,7 @@
 #### ** DO NOT MERGE SOLUTION PULL REQUESTS INTO THIS REPOSITORY **
 
 ## Learning Objectives
-1. Use Jasmine to TDD JavaScript code.
+1. Use Testing to TDD JavaScript code (first with assert and then with Jasmine).
 1. Understand basic JavaScript - functions, control structures, scope.
 1. Refactor code OO JavaScript using object literals and objects created with a
    constructor function
