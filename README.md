@@ -7,7 +7,7 @@
 #### ** DO NOT MERGE SOLUTION PULL REQUESTS INTO THIS REPOSITORY **
 
 ## Learning Objectives
-1. Use Testing to TDD JavaScript code (first with assert and then with Jasmine).
+1. Use Testing to TDD JavaScript code with Jasmine.
 1. Understand basic JavaScript - functions, control structures, scope.
 1. Refactor code OO JavaScript using object literals and objects created with a
    constructor function
@@ -59,20 +59,20 @@ JavaScript constructor functions and Prototypes.
 
 ### Release 3
 Now let's add some interaction with the DOM. Write your DOM interaction code in
-`view.js`. Use either the objects you built in release 1 or 2.
+`view.js` using the [jQuery library](http://jquery.com/). Use either the objects you built in release 1 or 2.
 
-Feel free to either write the javascript first or the tests first.  It's totally
-up to you.
+In this release, let's try writing the code first and then the tests.
 
-* Write a test that allows you to `plant` a tree by clicking a button. It should
-  be visible on the screen somehow. Make it pass
-* Write a test that allows you to `pick` a tree off an orange by clicking a
-  button. Make it pass.
-* Write a test that allows you to `age` a tree by clicking a button. Make it
-  pass.
-
-
+* Write code that allows you to `plant` a tree by clicking a button. It should
+  be visible on the screen somehow. (There is a tree image in the images file you may use)
+* Write code that allows you to `age` a tree by clicking a button.  If you age the tree enough there should be oranges that appear on the tree (use the orange image)
+* Write code that allows you to `pick` a tree off an orange by clicking a
+  button. 
+ 
 ### Release 4
+Explore the `jasmine-jquery` gem to write tests for the jQuery code in the previous release.
+
+### Release 5
 
 * Have some fun.  Can you add a pear tree? Can you do it TDD? 
 * Can you pick all the fruit that grows each year and put it in a basket?
