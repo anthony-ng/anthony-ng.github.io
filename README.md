@@ -3,6 +3,10 @@
 ## Learning Competencies
 
 * implement [jQuery][] callbacks
+* write JavaScript that can abstracts DOM manipulation
+* gain familarity with `keydown`, `keyup`, and `keypress` events
+* develop application that is fully located in JavaScript
+* build a Javascript class
 
 ## Summary
 
