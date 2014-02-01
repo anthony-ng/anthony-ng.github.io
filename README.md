@@ -121,6 +121,8 @@ from the HTML file.
 
 ## Optimize Your Learning
 
+_No comment_
+
 ## Resources
 
 * [Ruby Racer][]
