@@ -2,11 +2,11 @@
 
 ## Learning Competencies
 
-* implement [jQuery][] callbacks
-* write JavaScript that can abstracts DOM manipulation
-* gain familarity with `keydown`, `keyup`, and `keypress` events
-* develop application that is fully located in JavaScript
-* build a Javascript class
+* Define [jQuery][] callback events
+* Change the DOM based on events
+* Gain familarity with `keydown`, `keyup`, and `keypress` events
+* Build a pure JavaScript application (game)
+* Write OO-javascript
 
 ## Summary
 
