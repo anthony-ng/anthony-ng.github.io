@@ -119,6 +119,8 @@ with at least three files: an HTML file, a CSS file, and a JavaScript file.
 You can have more files, but all CSS and JavaScript should be linked externally
 from the HTML file.
 
+## Optimize Your Learning
+
 ## Resources
 
 * [Ruby Racer][]
