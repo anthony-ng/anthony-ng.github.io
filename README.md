@@ -65,9 +65,9 @@ Then, using CSS, you can provide styles like:
 }
 ```
 
-Then updating a player's position could be achieved by adding the `active`
-class to the appropriate `td`.  There are many other ways to achieve a sensible
-board output; this is just one suggestion.
+Updating a player's position could be achieved by adding the `active` class to
+the appropriate `td`.  There are many other ways to achieve a sensible board
+output; this is just one suggestion.
 
 Make sure you're able to "manually" produce all the board layouts you might
 care about before you jump into the JavaScript.  Whatever way you choose, it
@@ -77,7 +77,7 @@ Use something like [normalize.css][] to enable sane default styles.
 
 ### Release 1: Add Javascript
 
-Now we need some way for JavaScript to update the board state.  Create simple
+We need some way for JavaScript to update the board state.  Create simple
 JavaScript functions that can update a particular player's position.  You give
 the functions a player position as input and they update the underlying HTML to
 reflect the new position.
