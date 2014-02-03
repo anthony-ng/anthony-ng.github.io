@@ -1,11 +1,12 @@
 # Orange Trees
 
 ## Learning Competencies
-1. Use Testing to TDD JavaScript code with Jasmine.
-1. Understand basic JavaScript - functions, control structures, scope.
-1. Refactor code OO JavaScript using object literals and objects created with a
-   constructor function
-1. Use jQuery to display and manipulate JavaScript Objects in the DOM.
+
+* Use Testing to TDD JavaScript code with Jasmine.
+* Use basic JavaScript - functions, control structures, scope.
+* Write OO JavaScript 
+* Use jQuery effects like toggle, show, hide, animate
+* Write custom event handlers in JavaScript and jQuery
 
 ## Summary
 
