@@ -4,9 +4,9 @@
 
 * Define [jQuery][] callback events
 * Change the DOM based on events
-* Gain familarity with `keydown`, `keyup`, and `keypress` events
-* Build a pure JavaScript application (game)
-* Write OO-javascript
+* Write custom event handlers in JavaScript and jQuery
+* Build a pure JavaScript application 
+* Write OO-JavaScript
 
 ## Summary
 
@@ -28,7 +28,7 @@ understand event handling and callback functions.
 
 ### Release 0: The Setup
 
-Let's just start with building a simple two-player board.  This will be
+There is no skeleton for this challenge.  You will have to write the HTML, CSS and JavaScript files yourself (and link them all together).  Let's just start with building a simple two-player board.  This will be
 rendered via HTML.  There are a few ways you could do it, e.g., a table that
 looks like:
 
@@ -75,7 +75,7 @@ should be easy for jQuery/JavaScript to manipulate, so keep that in mind.
 
 Use something like [normalize.css][] to enable sane default styles.
 
-### Release 1: Add Javascript
+### Release 1: Add JavaScript
 
 We need some way for JavaScript to update the board state.  Create simple
 JavaScript functions that can update a particular player's position.  You give
@@ -119,9 +119,8 @@ with at least three files: an HTML file, a CSS file, and a JavaScript file.
 You can have more files, but all CSS and JavaScript should be linked externally
 from the HTML file.
 
-## Optimize Your Learning
+<!-- ## Optimize Your Learning -->
 
-_No comment_
 
 ## Resources
 
