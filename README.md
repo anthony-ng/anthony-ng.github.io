@@ -5,8 +5,6 @@
 * Use Testing to TDD JavaScript code with Jasmine.
 * Use basic JavaScript - functions, control structures, scope.
 * Write OO JavaScript
-* Use jQuery effects like toggle, show, hide, animate
-* Write custom event handlers in JavaScript and jQuery
 
 ## Summary
 
@@ -26,7 +24,10 @@ Here are some features:
 
 ### Release 0 : Working with Jasmine
 
-We've written a lot of tests for you in Jasmine, your job is to write the code to make these tests pass.  Start your test server by running `rake jasmine`.  You should see your first failing test.  Write code in `src/plain-old-js-objects.js` to make this test pass.  Then uncomment the next test (change the `xit` to `it`) and keep going.
+We've written a lot of tests for you in Jasmine, your job is to write the code to
+make these tests pass.  Start your test server by running `open SpecRunner.html`.
+You should see your first failing test.  Write code in `javascripts/plain-old-js-objects.js`
+to make this test pass.  Then uncomment the next test (change the `xit` to `it`) and keep going.
 
 ### Release 1 : Plain Old JavaScript Objects (Object Literals)
 
@@ -55,18 +56,24 @@ JavaScript constructor functions and Prototypes.
 * Refactor your spec files!
 
 
-### Release 3 : The view
+### Release 3 : The View
 
 Now let's add some interaction with the DOM. Write your DOM interaction code in
 `view.js`. Use either the objects you built in release 1 or 2.
-
-In this release, let's try writing the code first and then the tests.
 
 * Write code that allows you to `plant` a tree by clicking a button. It should
   be visible on the screen somehow. (There is a tree image in the images file you may use)
 * Write code that allows you to `age` a tree by clicking a button.  If you age the tree enough there should be oranges that appear on the tree (use the orange image)
 * Write code that allows you to `pick` a tree off an orange by clicking a
   button.
+
+Testing DOM-interactive JavaScript with Jasmine requires a lot of setup, since
+SpecRunner has no way to access the HTML in orange.html. You have to create mock
+HTML objects in your testing suite for any of your view.js tests to run.
+
+We've already given you one pending test example in `view_spec.js`, although it may
+not exactly match the architecture of your program. Get it working, and then continue to
+test all your functions that create, read, update, or delete anything from the DOM.
 
 ### Release 4
 
