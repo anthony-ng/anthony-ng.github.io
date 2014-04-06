@@ -1,3 +1,4 @@
-$(document).on('ready', function() {
+document.onreadystatechange = function() {
   // Put the code that starts your app running here.
-});
+}
+
