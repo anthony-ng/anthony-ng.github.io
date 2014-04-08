@@ -34,7 +34,7 @@ to make this test pass.  Then uncomment the next test (change the `xit` to `it`)
 Here we'll be building objects with functions. In this release we will create an
 orange tree, age the tree, grow oranges on the tree, and pick fruit off the
 tree.  We will model all of this using JavaScript functions and
-Plain-Old-JavaScript-Objects(aka Object-Literals).
+JavaScript objects.
 
 * One by one, make the
   [plain-old-js-objects-spec](./spec/javascripts/plain_old_js_objects_spec.js)
@@ -68,7 +68,7 @@ Now let's add some interaction with the DOM. Write your DOM interaction code in
   button.
 
 Testing DOM-interactive JavaScript with Jasmine requires a lot of setup, since
-SpecRunner has no way to access the HTML in orange.html. You have to create mock
+SpecRunner.html has no way to access the HTML in orange.html. You have to create mock
 HTML objects in your testing suite for any of your view.js tests to run.
 
 We've already given you one pending test example in `view_spec.js`, although it may
