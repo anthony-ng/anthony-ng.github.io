@@ -132,7 +132,7 @@ from the HTML file.
 * [Moxilla documentation for: keypress][keypress]
 
 
-[Ruby Racer]: http://socrates.devbootcamp.com/challenges/230
+[Ruby Racer]: ../../../ruby-racer-1-outrageous-fortune-challenge
 [jQuery]: http://learn.jquery.com/about-jquery/
 [normalize.css]: http://necolas.github.com/normalize.css/
 [keyup]: http://api.jquery.com/keyup/
