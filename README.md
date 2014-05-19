@@ -29,12 +29,11 @@ make these tests pass.  Start your test server by running `open SpecRunner.html`
 You should see your first failing test.  Write code in `javascripts/plain-old-js-objects.js`
 to make this test pass.  Then uncomment the next test (change the `xit` to `it`) and keep going.
 
-### Release 1 : Plain Old JavaScript Objects (Object Literals)
+### Release 1 : Plain Old JavaScript Objects (using Object Literal Notation)
 
 Here we'll be building objects with functions. In this release we will create an
 orange tree, age the tree, grow oranges on the tree, and pick fruit off the
-tree.  We will model all of this using JavaScript functions and
-JavaScript objects.
+tree.  We will model all of this using Object literal notation.
 
 * One by one, make the
   [plain-old-js-objects-spec](./spec/javascripts/plain_old_js_objects_spec.js)
@@ -43,11 +42,11 @@ JavaScript objects.
 * Refactor your JavaScript source files!
 * Refactor your spec files!
 
-### Release 2 : JavaScript Constructor Function Objects
+### Release 2 : Prototype-Based Object-Oriented Javascript
 
 In this release we will AGAIN create an orange tree, age the tree, grow oranges
 on the tree, and pick fruit off the tree.  We will model all of this using
-JavaScript constructor functions and Prototypes.
+JavaScript constructors and prototypes.
 
 * One by one, copy the plain old js objects spec into the typed objects spec.
   However, change them to use the `new OrangeTree` and `prototype` syntax as you
