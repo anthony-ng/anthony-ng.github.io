@@ -68,7 +68,7 @@ test all your functions that create, read, update, or delete anything from the D
 The [plain-old-js-objects-spec](./spec/javascripts/plain-old-js-objects-spec.js) 
 is orange trees using Object Literal Notation. Can you rewrite your orange tree
 code, making these specs pass, without using prototypes or constructor functions? 
-Use the plain-old-js-objects file and uncomment the `source` tag in SpecRunner.html.
+Use the plain-old-js-objects file and uncomment the `<source>` tag in SpecRunner.html.
 
 ### Release 4
 
