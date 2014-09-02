@@ -12,13 +12,13 @@ Remember our old friend **Orange Trees** from Ruby? Let's revisit it in JavaScri
 
 Here are some features:
 * A tree can age.
-* For each year the tree ages up to it's fruit bearing age, it gets taller.
+* For each year the tree ages up to its fruit bearing age, it gets taller.
 * After a tree reaches fruit bearing age, it can grow fruit.
 * A tree grows a random amount of oranges each year it ages (after reaching fruit bearing age)
 * An orange has a random diameter.
 * You can pick all the fruit that grows each year.
-* Any un-picked fruit dies when the tree ages again.
-* A tree dies after it ages for it's max age years and can no longer bear fruit.
+* Any unpicked fruit dies when the tree ages again.
+* A tree dies after it ages for its max age years and can no longer bear fruit.
 
 ## Releases
 
@@ -26,39 +26,28 @@ Here are some features:
 
 We've written a lot of tests for you in Jasmine, your job is to write the code to
 make these tests pass.  Start your test server by running `open SpecRunner.html`.
-You should see your first failing test.  Write code in `javascripts/plain-old-js-objects.js`
+You should see your first failing test.  Write code in `javascripts/typed-objects-spec.js`
 to make this test pass.  Then uncomment the next test (change the `xit` to `it`) and keep going.
 
-### Release 1 : Plain Old JavaScript Objects (using Object Literal Notation)
+### Release 1 : Prototype-Based Object-Oriented Javascript
 
-Here we'll be building objects with functions. In this release we will create an
-orange tree, age the tree, grow oranges on the tree, and pick fruit off the
-tree.  We will model all of this using Object literal notation.
-
-* One by one, make the
-  [plain-old-js-objects-spec](./spec/javascripts/plain_old_js_objects_spec.js)
-  pass without using prototypes or constructor functions. Use the
-  [plain-old-js-objects](./javascripts/plain-old-js-objects.js) file.
-* Refactor your JavaScript source files!
-* Refactor your spec files!
-
-### Release 2 : Prototype-Based Object-Oriented Javascript
-
-In this release we will AGAIN create an orange tree, age the tree, grow oranges
+In this release we will create an orange tree, age the tree, grow oranges
 on the tree, and pick fruit off the tree.  We will model all of this using
 JavaScript constructors and prototypes.
 
-* One by one, copy the plain old js objects spec into the typed objects spec.
-  However, change them to use the `new OrangeTree` and `prototype` syntax as you
-  do. use the `javascripts/typed-js-objects.js` file.
+
+* One by one, make the
+  [typed-objects-spec](./spec/javascripts/typed-objects-spec.js)
+  pass. Use the
+  [typed-objects](./javascripts/typed-objects.js) file.
 * Refactor your JavaScript source files!
 * Refactor your spec files!
 
 
-### Release 3 : The View
+### Release 2 : The View
 
 Now let's add some interaction with the DOM. Write your DOM interaction code in
-`view.js`. Use either the objects you built in release 1 or 2.
+`view.js`. Use the objects you built in release 1.
 
 * Write code that allows you to `plant` a tree by clicking a button. It should
   be visible on the screen somehow. (There is a tree image in the images file you may use)
@@ -73,6 +62,13 @@ HTML objects in your testing suite for any of your view.js tests to run.
 We've already given you one pending test example in `view_spec.js`, although it may
 not exactly match the architecture of your program. Get it working, and then continue to
 test all your functions that create, read, update, or delete anything from the DOM.
+
+### Release 3: Plain Old JS Objects (Optional)
+
+The [plain-old-js-objects-spec](./spec/javascripts/plain-old-js-objects-spec.js) 
+is orange trees using Object Literal Notation. Can you rewrite your orange tree
+code, making these specs pass, without using prototypes or constructor functions? 
+Use the plain-old-js-objects file and uncomment the `source` tag in SpecRunner.html.
 
 ### Release 4
 
