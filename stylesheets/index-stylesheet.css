@@ -1,1 +1,101 @@
- 
+body {
+  font-family: Georgia;
+  background-color: #267EFF;
+  color: white;
+}
+
+#navbar {
+  list-style-type: none;
+  padding-bottom: 5px;
+  padding-top: 8px;
+  background-color: #9831E8;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+#navbar li a {
+  font-size: 20px;
+}
+
+#navbar li {
+  color: white;
+  font-style: Helvetica;
+  display: inline;
+  padding-right: 50px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: violet;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+#header {
+  padding: 0px 0px 0px 0px;
+  background-color: #267EFF;
+  overflow: auto;
+  height: 500px;
+  z-index:1;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#profile_pic {
+  padding-top: 60px;
+
+}
+
+#profile_pic img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: teal;
+  border-width: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+#name {
+  font-size: 1.1em;
+}
+
+#about, #portfolio, #blog, #gallery, #contact,  p {
+  text-align: left;
+  font-size: 18px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  z-index: 999999;
+  background-color: #9831E8;
+  float: left;
+  position: fixed;
+  text-align: center;
+}
+
+#footer img {
+  display: inline;
+  height: 35px;
+  width: 35px;
+  padding-top: 10px;
+}
