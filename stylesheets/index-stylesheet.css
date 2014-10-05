@@ -55,9 +55,11 @@ a:visited {
   font-size: 1.5em;
 }
 
-#intro {
-  text-align: center;
-  margin:auto;
+#speech {
+  text-align: right;
+  margin-left: 515px;
+  margin-right: 0px;
+  color:yellow;
 }
 
 #profile_pic {
