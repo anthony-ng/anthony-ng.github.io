@@ -1,0 +1,115 @@
+html {
+  background-color: #0099ff;
+}
+
+p {
+  text-indent: 25px;
+}
+
+
+a:hover {
+  color: violet;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Times, serif;
+  color: black;
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  border-bottom: 2px solid blue;
+  border-top: 2px solid blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: 000066;
+  text-align: center;
+  font-size: 30;
+}
+
+#new-title {
+  position: absolute;
+  top: 190px;
+  border: none;
+  font-size: 35px;
+  font-family: serif;
+  left: 40px;
+  color:;
+}
+
+#portrait {
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  height: 150px;
+  width: 140px;
+
+}
+
+#Article {
+  font-family: Times;
+  border: 5px solid blue;
+  background-color: #ffffcc;
+  height: auto;
+  width: 65%;
+  position: absolute;
+  top: 260px;
+  left: 19%;
+  margin-bottom: 200px;
+  padding: 30px 30px 30px 30px;
+  ;
+}
+
+#blog-name {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  color: blue;
+}
+
+#sky {
+  position: fixed;
+  top: 0px
+  right: 5px;
+  width: 98.5%;
+  margin: 1px;
+}
+
+#new-date {
+  position: absolute;
+  top: 170px;
+  left: 390px;
+  border: none;
+  font-size: 20px;
+}
+
+.icon {
+  height: 20px;
+  width: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+#contact_links {
+  float: left;
+  height: 200px;
+  width 60px;
+  position: absolute;
+  top: 530px;
+  left: 30px;
+}
+
+#fixed {
+  position: fixed;
+  left: 0px;
+  top: 450px;
+  height: 200px;
+  width 60px;
+
+}
