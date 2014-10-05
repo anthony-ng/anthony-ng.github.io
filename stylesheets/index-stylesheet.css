@@ -55,6 +55,10 @@ a:visited {
   font-size: 1.5em;
 }
 
+#intro {
+  text-align: center;
+}
+
 #profile_pic {
   padding-top: 60px;
 
