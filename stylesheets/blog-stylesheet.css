@@ -98,11 +98,15 @@ h3 {
   text-align: center;
 }
 
+#profile {
+  position: fixed;
+}
+
 #contact_links {
   float: left;
   height: 200px;
   width 60px;
-  position: absolute;
+  position: fixed;
   top: 530px;
   left: 30px;
   color:white;
