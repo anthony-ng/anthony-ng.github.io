@@ -10,7 +10,11 @@ p {
 
 
 a:hover {
-  color: white;
+  color: voilet;
+}
+
+a:visited {
+  color:white;
 }
 
 h1 {
