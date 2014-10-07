@@ -109,8 +109,9 @@ a:visited {
 
 #intro {
   margin:auto;
+  text-align:center;
   font-family:Cursive;
-  font-size:1.5em;
+  font-size:2em;
   font-color:#A10000;
   position:fixed;
 }
