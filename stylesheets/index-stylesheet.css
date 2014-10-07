@@ -41,12 +41,12 @@ a:hover {
 
 a:visited {
   text-decoration: none;
-  color: red;
+  color: black;
 }
 
 #header {
   padding: 0px 0px 0px 0px;
-  background-color: #267EFF;
+  background-color: #6BCBFF;
   overflow: auto;
   height: 500px;
   z-index:1;
@@ -94,7 +94,7 @@ a:visited {
   width: 100%;
   bottom: 0;
   z-index: 999999;
-  background-color: #9831E8;
+  background-color: #55E85F;
   float: left;
   position: fixed;
   text-align: center;
