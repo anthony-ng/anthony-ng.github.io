@@ -53,16 +53,8 @@ a:visited {
   font-size: 1.5em;
 }
 
-#speech {
-  text-align: center;
-  margin-left: 515px;
-  margin-right: 0px;
-  color:yellow;
-}
-
 #profile_pic {
   padding-top: 60px;
-
 }
 
 #profile_pic img {
@@ -78,6 +70,10 @@ a:visited {
 
 #name {
   font-size: 1.1em;
+}
+
+#speech {
+  color:yellow;
 }
 
 #footer {
