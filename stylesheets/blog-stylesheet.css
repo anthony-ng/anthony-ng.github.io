@@ -52,7 +52,7 @@ h3 {
 
 }
 
-#Article {
+.Article {
   font-family: Times;
   border: 5px solid blue;
   background-color: #ffffcc;
