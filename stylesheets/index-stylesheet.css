@@ -109,4 +109,5 @@ a:visited {
   font-familt:Arial;
   font-size:25px;
   font-color:black;
+  border-top:2px solid black;
 }
