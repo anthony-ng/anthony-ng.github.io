@@ -106,3 +106,12 @@ a:visited {
   width: 35px;
   padding-top: 10px;
 }
+
+
+#intro {
+  margin:auto;
+  font-family:Cursive;
+  font-size:1.5em;
+  font-color:black;
+  position:fixed;
+}
