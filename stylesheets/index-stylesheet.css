@@ -110,3 +110,8 @@ a:visited {
   font-color:black;
   border-top:2px solid black;
 }
+
+#gallery {
+  width:800px;
+  height:600px;
+}
