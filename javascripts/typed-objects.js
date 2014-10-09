@@ -1,1 +1,5 @@
-// Write your Orange Tree code here - you may use constructor functions 
+var Tree = function() {
+    this.age = 0;
+    this.height = 0;
+    this.orangeCount = 0;
+};

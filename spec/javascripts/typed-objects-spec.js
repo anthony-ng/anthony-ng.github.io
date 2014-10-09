@@ -1,25 +1,34 @@
 describe ("Tree", function() {
   it("should return a tree object", function(){
-    var tree=new Tree()
+    var tree = new Tree()
+
     expect(tree).toBeDefined();
   });
-  xit("should return tree with age 0 when created", function() {
-    var tree=new Tree();
+
+  it("should return tree with age 0 when created", function() {
+    var tree = new Tree();
+
     expect(tree.age).toEqual(0);
   });
-  xit("should have height 0 when created", function() {
-    var tree=new Tree();
+
+  it("should have height 0 when created", function() {
+    var tree = new Tree();
+
     expect(tree.height).toEqual(0);
   });
-  xit("should have 0 oranges when created", function() {
-    var tree=new Tree();
+
+  it("should have 0 oranges when created", function() {
+    var tree = new Tree();
+
     expect(tree.orangeCount).toEqual(0);
   });
-  describe("grow", function() {
 
-    xit("should increase the age of the tree by 1 year", function() {
-      var tree=new Tree();
+  describe("grow", function() {
+    it("should increase the age of the tree by 1 year", function() {
+      var tree = new Tree();
+
       tree.grow();
+      
       expect(tree.age).toEqual(1);
     });
 
