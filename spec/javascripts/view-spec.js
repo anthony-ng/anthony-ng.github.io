@@ -17,7 +17,7 @@ describe ("View", function(){
 
   afterEach(function() {
     //deletes the mockGrove object so it doesn't interfere with other tests.
-    document.removeChild(mockGrove)
+    document.body.removeChild(mockGrove)
   })
 
   describe("renderTree", function() {
@@ -41,12 +41,15 @@ describe ("View", function(){
 
     afterEach(function() {
       //clean up after test.
-      document.removeChild(mockTemplate)
+      document.body.removeChild(mockTemplate)
     })
 
-    xit("should render a tree in the grove", function(){
-      var tree= new Tree()
-      View.renderTree(tree)
+    it("should render a tree in the grove", function(){
+      var tree = new Tree(),
+          view = new View();
+
+      view.renderTree(tree);
+
       expect( mockGrove.childElementCount ).toEqual(1);
     });
   })
