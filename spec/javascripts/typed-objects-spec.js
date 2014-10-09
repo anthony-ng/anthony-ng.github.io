@@ -28,27 +28,35 @@ describe ("Tree", function() {
       var tree = new Tree();
 
       tree.grow();
-      
+
       expect(tree.age).toEqual(1);
     });
 
-    xit("should increase the height of the tree by 10 inches", function() {
-      var tree=new Tree();
+    it("should increase the height of the tree by 10 inches", function() {
+      var tree = new Tree();
+
       tree.grow();
+
       expect(tree.height).toEqual(10);
     });
-    xit("should add a random number of oranges if age = FRUIT_BEARING_AGE", function() {
-      var tree=new Tree();
+
+    it("should add a random number of oranges if age = FRUIT_BEARING_AGE", function() {
+      var tree = new Tree();
+
       while (tree.age < FRUIT_BEARING_AGE) {
         tree.grow();
       }
+
       expect(tree.orangeCount).toBeGreaterThan(0);
     });
-    xit("should have 0 oranges if age < FRUIT_BEARING_AGE", function() {
-      var tree=new Tree();
+
+    it("should have 0 oranges if age < FRUIT_BEARING_AGE", function() {
+      var tree = new Tree();
+
       while (tree.age < (FRUIT_BEARING_AGE-1)) {
         tree.grow();
       }
+      
       expect(tree.orangeCount).toEqual(0);
     });
   });
