@@ -42,16 +42,6 @@ describe ("Tree", function() {
             expect(tree.height).toEqual(10);
         });
 
-        it("should add a random number of oranges to orangeCount if age >= FRUIT_BEARING_AGE", function() {
-            var tree = new Tree();
-      
-            while (tree.age < FRUIT_BEARING_AGE) {
-                tree.grow();
-            }
-
-            expect(tree.orangeCount).toBeGreaterThan(0);
-        });
-
         it("should have orangeCount === 0 if age < FRUIT_BEARING_AGE", function() {
             var tree = new Tree();
 
@@ -60,6 +50,16 @@ describe ("Tree", function() {
             }
 
             expect(tree.orangeCount).toEqual(0);
+        });
+
+        it("should add a random number of oranges to orangeCount if age >= FRUIT_BEARING_AGE", function() {
+            var tree = new Tree();
+      
+            while (tree.age < FRUIT_BEARING_AGE) {
+                tree.grow();
+            }
+
+            expect(tree.orangeCount).toBeGreaterThan(0);
         });
 
         it("should be alive when age <= MAX_AGE", function() {
