@@ -30,30 +30,28 @@ view should have. Note that you may have to write additional tests once your vie
 
 ### Releases
 
-##### Release 0 : Working with Jasmine
+##### Release 0: TDDing the Model with Jasmine
 
 We've written a lot of tests for you in Jasmine. Your job is to write the code for the model and
 view to make these tests pass.
 
 Open `SpecRunner.html`, found in the `test` directory. You should see your first failing test.
 
-Write code in `javascripts/tree.js` to make this test pass.  Then uncomment the next test (change
-the `xit` to `it`) and keep going until all the specs are passing.
+Our code for the model tests resides in `test/spec/tree.spec.js`.
 
-### Release 1 : Prototype-Based Object-Oriented Javascript
+Write OO JS code in `javascripts/tree.js` to make this test pass.  Then uncomment the next test
+(change the `xit` to `it`) and keep going until all the specs are passing.
 
-In this release we will create an orange tree, age the tree, grow oranges
-on the tree, and pick fruit off the tree.  We will model all of this using
-JavaScript constructors and prototypes.
+##### Release 1: TDDing the View with Jasmine
 
+Much like for our tree model, we've written a Jasmine test for you to test the view. Write the code
+for the view to make this test pass.
 
-* One by one, make the
-  [typed-objects-spec](./spec/javascripts/typed-objects-spec.js)
-  pass. Use the
-  [typed-objects](./javascripts/typed-objects.js) file.
-* Refactor your JavaScript source files!
-* Refactor your spec files!
+Our code for the model tests resides in `test/spec/view.spec.js`.
 
+Write OO JS in `javascripts/view.js` to make this test pass.
+
+We'll come back to this test suite later to add additional tests for new functionality!
 
 ### Release 2 : The View
 
