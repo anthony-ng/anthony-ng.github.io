@@ -79,7 +79,7 @@ from the DOM.
 * Can you pick all the fruit that grows each year and put it in a basket?
 * Can you know the number of fruit in the basket and the average diameter of that fruit at any time?
 
-## Resources
+### Resources
 
 1. [tryJasmine.com](http://tryjasmine.com)
 1. [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
