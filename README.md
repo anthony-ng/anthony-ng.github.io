@@ -28,14 +28,17 @@ Our view represents the *user interface*, as well as the *event bindings* associ
 Read through the test specs in the `test/spec/view.spec.js` file to determine what features the
 view should have. Note that you may have to write additional tests once your view is feature-complete!
 
-## Releases
+### Releases
 
-### Release 0 : Working with Jasmine
+##### Release 0 : Working with Jasmine
 
-We've written a lot of tests for you in Jasmine, your job is to write the code to
-make these tests pass.  Start your test server by running `open SpecRunner.html`.
-You should see your first failing test.  Write code in `javascripts/typed-objects-spec.js`
-to make this test pass.  Then uncomment the next test (change the `xit` to `it`) and keep going.
+We've written a lot of tests for you in Jasmine. Your job is to write the code for the model and
+view to make these tests pass.
+
+Open `SpecRunner.html`, found in the `test` directory. You should see your first failing test.
+
+Write code in `javascripts/tree.js` to make this test pass.  Then uncomment the next test (change
+the `xit` to `it`) and keep going until all the specs are passing.
 
 ### Release 1 : Prototype-Based Object-Oriented Javascript
 
