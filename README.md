@@ -22,10 +22,10 @@ Read through the test specs in the `test/spec/tree.spec.js` file to determine wh
 (properties and methods) the tree should have.
 
 The view represents the "view" in MVC, and contains UI-related properties and methods. It MAY
-contain HTML, CSS, and references to the DOM, as well as references to the model, our tree.
+contain HTML, CSS, and references to the DOM, as well as a reference to the model, our tree.
 Our view represents the *user interface*, as well as the *event bindings* associated with the UI.
 
-Read through the test specs in the 'test/spec/view.spec.js' file to determine what features the
+Read through the test specs in the `test/spec/view.spec.js` file to determine what features the
 view should have. Note that you may have to write additional tests once your view is feature-complete!
 
 ## Releases
