@@ -62,10 +62,6 @@ describe ("Tree", function() {
             expect(tree.orangeCount).toEqual(0);
         });
 
-    });
-
-    describe (".die()", function() {
-
         it("should be alive when age <= MAX_AGE", function() {
             var tree = new Tree();
 
@@ -87,27 +83,38 @@ describe ("Tree", function() {
 
             expect(tree.isAlive).toEqual(false);
         });
-        
+
     });
 
-  describe("dropOrange", function() {
-    xit("should return the orange that is removed from oranges", function() {
-      var tree=new Tree();
-      while (tree.age< FRUIT_BEARING_AGE) {
-        tree.grow();
-      }
-      expect(tree.dropOrange()).toBeDefined();
-    });
-  });
+    describe(".dropOrange()", function() {
 
-  describe ("pickOrange", function() {
-    xit("should return a orange object", function() {
-      expect(pickOrange()).toBeDefined();
+        it("should return the tree's updated orangeCount after dropping an orange", function() {
+            var tree = new Tree();
+
+            while (tree.age < FRUIT_BEARING_AGE) {
+                tree.grow();
+            }
+      
+            expect(typeof(tree.dropOrange())).toEqual('number');
+        });
+
     });
-    xit("should return an orange with a random diameter > 0", function() {
-      var orange = pickOrange();
-      expect(orange.diameter).toBeGreaterThan(0);
+
+    describe (".pickOrange()", function() {
+
+        it("should return a new instance of an orange object", function() {
+            var tree = new Tree();
+
+            expect(typeof(tree.pickOrange())).toEqual('object');
+        });
+
+        it("should return a new instance of an orange object with a random diameter > 0", function() {
+            var tree = new Tree();
+            var orange = tree.pickOrange();
+
+            expect(orange.diameter).toBeGreaterThan(0);
+        });
+
     });
-  });
 
 });
