@@ -60,7 +60,7 @@ found in `javascripts/view.js`. Use the objects you built in releases 0 and 1.
 
 * Write code that allows you to plant a tree by clicking a button. It should be visible on the screen somehow (there is a tree image in the `images` directory you may use)
 * Write code that allows you to age a tree by clicking a button. If you age the tree enough, there should be oranges that appear on the tree (use the orange image)
-* Write code that allows you to pick an orange off the tree by clicking a button.
+* Write code that allows you to pick an orange off the tree by clicking a button
 
 Testing DOM-interactive JavaScript with Jasmine requires a lot of setup, since
 `SpecRunner.html` has no way to access the HTML in `index.html`. You have to create mock
@@ -73,23 +73,9 @@ We've already given you one pending test example in `view.spec.js`. Get it worki
 continue to add new tests for all your functions that create, read, update, or delete anything
 from the DOM.
 
-### Release 3: Plain Old JS Objects (Optional)
+##### Release 3: Bonus! (optional)
 
-The [plain-old-js-objects-spec](./spec/javascripts/plain-old-js-objects-spec.js) 
-is orange trees using Object Literal Notation. Can you rewrite your orange tree
-code, making these specs pass, without using prototypes or constructor functions? 
-Use the [plain-old-js-objects](./javascripts/plain-old-js-objects.js) file and uncomment the `<source>` tag in SpecRunner.html.
-
-* One by one, make the
-  [plain-old-js-objects-spec](./spec/javascripts/plain-old-js-objects-spec.js)
-  pass. Use the
-  [plain-old-js-objects](./javascripts/plain-old-js-objects.js) file.
-* Refactor your JavaScript source files!
-* Refactor your spec files!
-
-### Release 4
-
-* Have some fun.  Can you add a pear tree? Can you do it TDD?
+* Have some fun. Can you add a pear tree? Can you do it TDD-style?
 * Can you pick all the fruit that grows each year and put it in a basket?
 * Can you know the number of fruit in the basket and the average diameter of that fruit at any time?
 
