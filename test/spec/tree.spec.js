@@ -64,24 +64,31 @@ describe ("Tree", function() {
 
     });
 
-  describe ("die",function() {
-    xit("should be alive when age <= MAX_AGE",function() {
-      var tree=new Tree();
-      while (tree.age < (MAX_AGE-1)) {
-        tree.grow();
-      }
-      tree.grow();
-      expect(tree.isAlive).toEqual(true);
+    describe (".die()", function() {
+
+        it("should be alive when age <= MAX_AGE", function() {
+            var tree = new Tree();
+
+            while (tree.age < MAX_AGE) {
+                tree.grow();
+            }
+
+            expect(tree.isAlive).toEqual(true);
+        });
+
+        it("should be dead when age > MAX_AGE", function() {
+            var tree = new Tree();
+      
+            while (tree.age < MAX_AGE) {
+                tree.grow();
+            }
+
+            tree.grow();
+
+            expect(tree.isAlive).toEqual(false);
+        });
+        
     });
-    xit("should die when age > MAX_AGE",function() {
-      var tree=new Tree();
-      while (tree.age < MAX_AGE) {
-        tree.grow();
-      }
-      tree.grow();
-      expect(tree.isAlive).toEqual(false);
-    });
-  });
 
   describe("dropOrange", function() {
     xit("should return the orange that is removed from oranges", function() {
