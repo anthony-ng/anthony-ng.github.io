@@ -1,12 +1,14 @@
-# Orange Trees
+# Orange Trees & Jasmine Challenge
 
-## Learning Competencies
+### Learning Competencies
 
-* Use Testing to TDD JavaScript code with Jasmine.
-* Use basic JavaScript - functions, control structures, scope.
-* Write OO JavaScript
+* Write OO JavaScript using constructor functions and prototypal methods
+* Begin working with MVC concepts in JavaScript
+* Unit test JavaScript code using the Jasmine JS testing framework
+* Gain familiarity with using [HTML5 Boilerplate](http://html5boilerplate.com/) to utilize HTML/CSS best practices
+* Gain familiarity with file structure/naming conventions
 
-## Summary
+### Summary
 
 Remember our old friend **Orange Trees** from Ruby? Let's revisit it in JavaScript.
 
