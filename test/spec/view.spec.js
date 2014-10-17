@@ -25,38 +25,53 @@ describe ("View", function() {
     });
 
     describe(".renderTree()", function() {
-        var mockTemplate;
+
+        // we create a variable to store our fake 'template' in the outer scope so that our test
+        //  specs can access it
+        var mockTreeTemplate;
+
+        // we abstract out our 'template' creation into its own function for readability purposes
+        var createMockTreeTemplate = function() {
+            mockTreeTemplate = document.createElement('div');
+
+            mockTreeTemplate.id = "orange-tree-template";
+
+            // we create a fake orange tree div; it's a barebones version of the tree, with
+            //  no p tags or buttons
+            // you may need to add more complexity to it for future tests!
+            var orangeTree = document.createElement('div');
+
+            orangeTree.className = "orange-tree";
+
+            mockTreeTemplate.appendChild(orangeTree);
+
+            document.body.appendChild(mockTreeTemplate);
+        };
 
         beforeEach(function() {
-            //creates a fake orange tree template div
-      mockTemplate = document.createElement('div')
-      mockTemplate.id = "orange-tree-template"
+            createMockTreeTemplate();
+        });
 
-      // create a fake orange tree div. It's a barebones version of the tree, with
-      // no p tags or buttons. You may need to add more complexity to it for future tests
-      var orangeTree = document.createElement('div')
-      orangeTree.className = "orange-tree"
+        afterEach(function() {
+            // after each test spec run, we remove the 'mockTreeTemplate' DOM elements to create a clean slate
+            //  for the next test
+            document.body.removeChild(mockTreeTemplate)
+        });
 
-      // appends the tree div to the template div, just like in orange.html
-      mockTemplate.appendChild(orangeTree)
-      // appends the template div to the document, in this case
-      document.body.appendChild(mockTemplate)
-    })
+        it("should render a tree in the grove", function(){
+            var tree = new Tree();
 
-    afterEach(function() {
-      // after each test spec run, we remove the 'mockTemplate' DOM elements to create a clean slate
-      //  for the next test
-      document.body.removeChild(mockTemplate)
-    })
+            // pass the model (our tree) into the view so the view can render the tree in the UI using
+            //  the tree's properties (height, number of oranges, etc.)
+            var view = new View({
+                model: tree
+            });
 
-    it("should render a tree in the grove", function(){
-      var tree = new Tree();
-      var view = new View();
+            view.renderTree();
 
-      view.renderTree(tree);
+            expect(mockGrove.childElementCount).toEqual(1);
+        });
 
-      expect(mockGrove.childElementCount).toEqual(1);
     });
-  })
 
 });
