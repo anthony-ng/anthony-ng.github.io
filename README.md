@@ -12,15 +12,21 @@
 
 Remember our old friend **Orange Trees** from Ruby? Let's revisit it in JavaScript.
 
-Here are some features:
-* A tree can age.
-* For each year the tree ages up to its fruit bearing age, it gets taller.
-* After a tree reaches fruit bearing age, it can grow fruit.
-* A tree grows a random amount of oranges each year it ages (after reaching fruit bearing age)
-* An orange has a random diameter.
-* You can pick all the fruit that grows each year.
-* Any unpicked fruit dies when the tree ages again.
-* A tree dies after it ages for its max age years and can no longer bear fruit.
+We'll be utilizing some MVC concepts to create the tree and its corresponding view.
+
+The tree represents the "model" in MVC, and contains data-related properties and methods. It
+should NOT contain HTML, CSS, or references to the DOM, if we can help it. Models are *just
+data*.
+
+Read through the test specs in the `test/spec/tree.spec.js` file to determine what features
+(properties and methods) the tree should have.
+
+The view represents the "view" in MVC, and contains UI-related properties and methods. It MAY
+contain HTML, CSS, and references to the DOM, as well as references to the model, our tree.
+Our view represents the *user interface*, as well as the *event bindings* associated with the UI.
+
+Read through the test specs in the 'test/spec/view.spec.js' file to determine what features the
+view should have. Note that you may have to write additional tests once your view is feature-complete!
 
 ## Releases
 
