@@ -58,7 +58,7 @@ describe ("View", function() {
             document.body.removeChild(mockTreeTemplate)
         });
 
-        it("should render a tree in the grove", function(){
+        xit("should render a tree in the grove", function(){
             var tree = new Tree();
 
             // pass the model (our tree) into the view so the view can render the tree in the UI using
