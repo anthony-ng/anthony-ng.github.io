@@ -72,6 +72,11 @@ describe ("View", function() {
             expect(mockGrove.childElementCount).toEqual(1);
         });
 
+        // TODO: write more tests here! consider writing tests and functionality for:
+        //  - rendering images (<img> tags) for all the tree's current oranges
+        //  - rendering the tree at a specific height (using CSS) using the tree's height property
+        //  - rendering the tree using different images (using HTML/CSS) for an alive/dead tree
+
     });
 
 });
