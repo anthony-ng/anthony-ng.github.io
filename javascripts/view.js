@@ -1,1 +1,1 @@
-/* Write your JS to modify the view here */
+// write your view code here. use a constructor function!

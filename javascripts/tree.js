@@ -1,1 +1,1 @@
-// Write your Orange Tree code here - you may use constructor functions 
+// write your tree code here. use a constructor function!
