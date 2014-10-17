@@ -14,6 +14,10 @@ Remember our old friend **Orange Trees** from Ruby? Let's revisit it in JavaScri
 
 We'll be utilizing some MVC concepts to create the tree and its corresponding view.
 
+We have two HTML pages that we'll be utilizing:
+* `index.html`, which represents our actual 'application': what the end-user sees and interacts with
+* `test/SpecRunner.html`, which represents the unit tests for the OO JS we've written for our application
+
 The tree represents the "model" in MVC, and contains data-related properties and methods. It
 should NOT contain HTML, CSS, or references to the DOM, if we can help it. Models are *just
 data*.
