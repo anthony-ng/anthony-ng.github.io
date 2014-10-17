@@ -1,3 +1,5 @@
+> Note: THIS IS A COMPLETED SOLUTION. DO NOT SET THIS AS DEFAULT BRANCH IN A COHORT'S REPO!
+
 > Note: this branch was created off `sf` branch
 
 # Orange Trees
