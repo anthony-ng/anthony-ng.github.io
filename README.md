@@ -51,7 +51,7 @@ next test (change the `xit` to `it`) and keep going until all the specs are pass
 Much like for our tree model, we've written a Jasmine test for you to test the view. Write the code
 for the view to make this test pass.
 
-Our code for the model tests resides in `test/spec/view.spec.js`.
+Our code for the view tests resides in `test/spec/view.spec.js`.
 
 Write OO JS code for the view in `javascripts/view.js` to make this test pass.
 
