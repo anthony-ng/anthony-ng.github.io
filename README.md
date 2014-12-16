@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # Orange Trees & Jasmine Challenge
+=======
+> Note: THIS IS A COMPLETED SOLUTION. DO NOT SET THIS AS DEFAULT BRANCH IN A COHORT'S REPO!
+
+> Note: this branch was created off `sf` branch
+
+# Orange Trees
+>>>>>>> dd0c42c1a2a2f66a01ee6709808ecb8abb67c457
 
 ### Learning Competencies
 
