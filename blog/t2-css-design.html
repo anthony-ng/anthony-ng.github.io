@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+  </head>
+  <body>
+
+    <h1 id="blog-name">Anthony's Blog</h1>
+
+    <div class="Article">
+    <div id="t2">
+      <h3>Week 2: My 2nd Technical Blog</h3>
+      <h4>CSS Concept: <br>What are the differences between relative, absolute, and fixed positioning</h4>
+      <h4>Established Oct 1st, 2014</h4>
+      <p>Web developer use CSS for styling their websites, making them look fancy and beautiful. And one of the most important factor here is positioning. So what exactly do developer position thing in a website? Read on...</p>
+      <p>
+        Controlling the position of HTML elements allows you incredibly fine control over how your pages look. In CSS, there are 3 types of positioning: relative, absolute, and fixed. And the difference is quite obvious. Let's talk about relative first.
+      </p>
+      <p>
+        Relative positioning is very straight-forward: it tells the element to move relative to where it would have landed if it just had the default static positioning.<br>If you give an element relative positioning and tell it to have a <em>margin-top</em> of <em>10px</em>, it doesn't move down ten pixels from any particular thing - instead, it moves down ten pixels from where it <em>otherwise would have been</em>.
+      </p>
+      <p>
+        What about absolute? When an element is set to <em>absolute position</em>, it's then positioned in relation to the first parent element it has that <em>doesn't</em> have position:<em>static</em>.<br>If there is no such element, the element with position: absolute gets positioned relative to <em>&lt;html&gt;</em>.
+      </p>
+      <p>
+        Finally, fixed positioning.<br>Fiexed positioning anchors an element to the brower window - you can think of it as gluing the element to the screen. If you scroll up and down, the fixed element stays put even as other elements scroll past! Funny!
+      </p>
+
+      <p>As a result, all three positioning has different purposes, and it really comes down the actual requirement when a developer decide which positioning he or she needs. I hope this simple technical blog helps!</p>
+
+    </div>
+    </div>
+
+
+    <div id="contact_links">
+      <img id="portrait" src="../img/profile.jpg"/>
+      <h3 class="center"><a href="../about.html">About</a></h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/anthony0808"><img class="icon" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTzi7PuXbJ0QzHbG6hnuXC7Bj9NEDxTXOOj0xyoylFz8tElaL_5Y_PCdA"/>Linked In</a></li>
+        <li><a href="https://twitter.com/Anthony_Ng"><img class="icon" src="https://pbs.twimg.com/profile_images/2284174758/v65oai7fxn47qv9nectx_400x400.png"/>Twitter</a></li>
+        <li><a href="https://github.com/anthony-ng"><img class="icon" src="http://romnes.github.io/images/github.png"/>GitHub</a></li>
+        <li><a href="https://www.facebook.com/anthony0808"><img class="icon" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ64Er0HwlJqNAhgmaWnu3JOylUDFqd6Jy7FV1U-l4vH5qHnbyu">Facebook</a></li>
+      </ul>
+    </div>
+
+  </body>
+</html>
