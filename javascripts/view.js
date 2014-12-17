@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 // write your view code here. use a constructor function!
-=======
 var View = function() {
     this.el = document.getElementsByClassName('grove')[0];
     this.tree = null;
@@ -73,4 +71,3 @@ View.prototype.attachAgeButtonListener = function() {
         });
     }
 };
->>>>>>> dd0c42c1a2a2f66a01ee6709808ecb8abb67c457
