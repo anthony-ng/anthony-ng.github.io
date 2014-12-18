@@ -1,0 +1,32 @@
+body {
+  background-image: url("http://image.motortrend.com/f/wot/video-find-cops-and-baddies-meets-fast-and-furious-in-drift-battle-158553/55227056/motorcycle-cop-car-drift-battle-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.racer_table td {
+  background-image: url("http://madlucas.files.wordpress.com/2008/11/road026.jpg");
+  background-size: 80px 80px;
+  height: 80px;
+  width: 80px;
+}
+
+.racer_table td.active1 {
+  background-image: url("http://www.animateit.net/data/media/nov2011/29cs751.gif");
+  background-size: 100px 80px;
+}
+
+.racer_table td.active2 {
+  background-image: url("http://thumb7.shutterstock.com/display_pic_with_logo/1158215/112014269/stock-vector-police-officer-of-white-motorcycle-112014269.jpg");
+  background-size: 80px 80px;
+}
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: red;
+}
+
+h4 {
+  color: green;
+}
