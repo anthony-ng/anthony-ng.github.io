@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orange Trees</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  </head>
+
+  <body>
+    <header>
+      Welcome to Orange Trees
+    </header>
+
+    <div class="grove">
+      <button id="plant-tree">Plant Orange Tree</button>
+    </div>
+
+    <div id="orange-tree-template">
+      <div class="orange-tree">
+        <h2>Tree Name</h2>
+        <p id="age">0</p>
+        <p id="fruit-count">0</p>
+        <button id="pick-orange">Pick!</button>
+        <button id="age-tree">Age!</button>
+        <div class="display-tree-big"><div>
+      </div>
+    </div>
+
+    <script src="javascripts/typed-objects.js"></script>
+    <!-- feel free to replace typed-objects with the plain-old-js-objects,
+    depending on how you implement your view.js -->
+    <script src="javascripts/view.js"></script>
+
+    <script>
+      var view = new View();
+
+      // possibly utilize a view method here to attach event listeners, so there's no need
+      //  for the weird 'if' check for html buttons within the view
+    </script>
+  </body>
+</html>
