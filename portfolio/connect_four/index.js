@@ -1,41 +1,54 @@
 $(document).ready(function() {
 
-  function Game () {
+function Game () {
 
-    this.board = [
-    [null,null,null,null,null,null,null,],
-    [null,null,null,null,null,null,null,],
-    [null,null,null,null,null,null,null,],
-    [null,null,null,null,null,null,null,],
-    [null,null,null,null,null,null,null,],
-    [null,null,null,null,null,null,null,]
-    ];
+  this.currentPiece = "Black"
 
-    this.addPiece = function(obj) {
+  this.board = [
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,],
+  [null,null,null,null,null,null,null,]
+  ];
 
-      var model_col = obj.col
+  this.addPiece = function(obj) {
 
-      for (i = 5;i >= 0 ;i--){
-        if (this.board[i][model_col] === null) {
-          //put piece
-          this.board[i][model_col] = "red";
-        }
-        var array = [i, model_col, (this.board[i][model_col])]
-        return array;
+    var model_col = obj.col;
+    var counter = 5;
+
+    while (counter >= 0) {
+      if (this.board[counter][model_col] === null) {
+        this.board[counter][model_col] = this.fetchCurrentPiece();
+        unused = [counter, parseInt(model_col), (this.board[counter][model_col])];
+        return unused
       }
-    };
-  }
+      counter--;
+  };
+}
 
-  var game = new Game();
+  this.fetchCurrentPiece = function() {
+    var piece = this.currentPiece //black
+    this.currentPiece = (this.currentPiece === 'Black' ? 'Red' : 'Black')
+    return piece
+  };
+}
 
-  $('.button_row button').click(function(){
-    var button_column = this.dataset["col"]
-    game.addPiece({col: button_column})
-    var info_arr = game.addPiece({col: button_column})
-    var piece = info_arr[2]
-    var col = info_arr[1]
-    var row = info_arr[0]
-    console.log(info_arr)
-    $('.cell[data-col='+row+'][data-row='+col+']').css("background-color", piece)
-  });
+var game = new Game();
+
+$('.button_row button').click(function(){
+  var button_column = this.dataset["col"]
+
+  var info_arr = game.addPiece({col: button_column})
+
+  console.log(info_arr);
+
+  var piece = info_arr[2]
+  var col = info_arr[1]
+  var row = info_arr[0]
+  // console.log(info_arr)
+  $('.cell[data-col='+row+'][data-row='+col+']').css("background-color", piece)
+
+});
 });
