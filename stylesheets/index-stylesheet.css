@@ -1,0 +1,9 @@
+.navigation_bar .navigation_bar_button {
+  float: left;
+  position: relative;
+  background-color: red;
+}
+
+.navigation_bar_button li {
+  height: 65px;
+}
