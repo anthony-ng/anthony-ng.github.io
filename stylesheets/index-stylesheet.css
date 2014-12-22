@@ -105,7 +105,7 @@ a:visited {
 
 .back {
   marin:550 50 100 150;
-  font-familt:Arial;
+  font-family:Arial;
   font-size:25px;
   font-color:black;
   border-top:2px solid black;
@@ -114,4 +114,10 @@ a:visited {
 #gallery img {
   width:800px;
   height:600px;
+}
+
+.about {
+  font-size: 10px;
+  font-color: white;
+  font-family: Georgia;
 }
