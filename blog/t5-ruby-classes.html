@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+  </head>
+  <body>
+
+    <h1 id="blog-name">Anthony's Blog</h1>
+
+    <div class="Article">
+    <div id="t5">
+      <a href="../blog/t5-ruby-classes.html">
+      <h3>Week 5: My Technical Blog</h3></a>
+      <h4>Ruby Classes</h4>
+      <h4>Established October 17th, 2014</h4>
+      <p>This week, we will be talking about Class in Ruby. </p>
+      <p>Classes in Ruby are first-class objects---each is an instance of class Class.</p>
+      <p>Typically, you create a new class by using:</p>
+      <p>class Name<br>   some class describing the class behavior<br>end</p>
+      <p>When a new class is created, an object of type Class is initialized and assigned to a global constant (Name in this case).<br>When Name.new is called to create a new object, the new method in Class is run by default.</p>
+      <p>Classes, modules, and objects are interrelated. In the diagram that follows, the vertical arrows represent inheritance, and the parentheses meta-classes. All metaclasses are instances of the class `Class'.</p>
+      <p>Below is another very simple example of class:</p>
+      <p>class Class<br>    alias oldNew  new<br>    def new(*args)<br>        print "Creating a new ", self.name, "\n"<br>        oldNew(*args)<br>    end<br>end<br>class Name<br>end<br>n = Name.new</p>
+      <p>What do you think? Not too hard to learn, right?</p>
+    </div>
+    </div>
+
+    <div id="contact_links">
+      <img id="portrait" src="../img/profile.jpg"/>
+      <h3 class="center"><a href="../about.html">About</a></h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/anthony0808"><img class="icon" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTzi7PuXbJ0QzHbG6hnuXC7Bj9NEDxTXOOj0xyoylFz8tElaL_5Y_PCdA"/>Linked In</a></li>
+        <li><a href="https://twitter.com/Anthony_Ng"><img class="icon" src="https://pbs.twimg.com/profile_images/2284174758/v65oai7fxn47qv9nectx_400x400.png"/>Twitter</a></li>
+        <li><a href="https://github.com/anthony-ng"><img class="icon" src="http://romnes.github.io/images/github.png"/>GitHub</a></li>
+        <li><a href="https://www.facebook.com/anthony0808"><img class="icon" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ64Er0HwlJqNAhgmaWnu3JOylUDFqd6Jy7FV1U-l4vH5qHnbyu">Facebook</a></li>
+      </ul>
+    </div>
+
+  </body>
+</html>
 

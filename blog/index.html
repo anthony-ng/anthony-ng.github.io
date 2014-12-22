@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
   </head>
   <body>
 
@@ -26,7 +26,7 @@
       </p>
 
       <p>So, I hope now you have some basic understand about what Rails is, and how is it interact with Ruby. I hope you will learn Rails soon!<p>
-      
+
     </div>
     </div>
 
@@ -92,6 +92,103 @@
       <p>In summary, I strongly agree those values I mentioned above. If I have to rate, it would be 5 on a scale of 1 to 5</p>
       <p>The last topic that someone asked my advice on was my friend who needed to decide whether he should go back to his hometown while giving up the legal status in the United States. Since that is a very serious topic, I tried to analyze the pros and cons of both optiopns with him. I believe I successfully express the values I mentioned above: Confidence and Reputation because thats probably why my friend had decided to come to me and ask for advice. Eventually, we were able to come up witha a conclusion where he could make the finally decision.</p>
       <p>So this is what I think of values. What value do you agree?</p>
+    </div>
+    </div>
+
+
+    <div class="Article">
+    <div id="t6">
+      <a href="../blog/t6-oop-concepts.html">
+      <h3>Week 6: My Technical Blog</h3></a>
+      <h4>Object-Oriented vs. Functional Programming</h4>
+      <h4>Established October 24th, 2014</h4>
+      <p>Since I've learned a bit about object-oriented programming this week, I would like to share something I learned.</p>
+      <p>Let's talk about Object-Oriented vs. Functional Programming. When people discuss this topic, they always argue one is better than the other one. But is it really the case? Let's find out!</p>
+      <p>The central tenet of OOP is that data and the operations upon it are tightly coupled: An object owns its data and it owns the implementation of the operations on the data. It hides those from other objects via its interface, a collection of methods or messages it responds to. Thus, the central model for abstraction is the data itself, hidden as it is behind a small API in the form of its interface.</p>
+      <p>The central tenet of FP is that data is only loosely coupled to functions. You can write different operations on the same data structure, and the central model for abstraction is the function, not the data structure. Functions hide their implementation, and the language’s abstractions speak to functions and they way they are combined or expressed, such as generic functions or combinators.</p>
+      <p>Now, A well-crafted OO architecture makes changing the way things are put together easy. All that hiding and decoupling allows you to change the relationships between things easily. OO does not make adding new operations particularly easy, you see this whenever you find yourself muttering about “double dispatch and visitors.”</p>
+    </div>
+    <p>But if you have a business process for placing an order that is being refactored to handle new business rules, this is where OO shines. Those things that don’t need to know about the change are insulated from those that do.</p>
+    <p>Right? So you can see that the answer to the question I doubted at the beginning is really up to you. Someone might prefer OO more, while someone might like Functional programming more.</p>
+    <p>What do you think? Lets share your opinion too!</p>
+    </div>
+
+    <div class="Article">
+    <div id="c6">
+      <a href="../blog/c6-stereotype-threat.html">
+      <h3>Week 6: my Cultural Blog</h3></a>
+      <h4>Stereotype Threat</h4>
+      <h4>Established October 24th, 2014</h4>
+      <p>Accorfing to "Steele & Aronson, 1995", Stereotype threat refers to being at risk of confirming, as self-characteristic, a negative stereotype about one's group. This term was first used by Steele and Aronson (1995) who showed in several experiments that Black college freshmen and sophomores performed more poorly on standardized tests than White students when their race was emphasized. When race was not emphasized, however, Black students performed better and equivalently with White students. The results showed that performance in academic contexts can be harmed by the awareness that one's behavior might be viewed through the lens of racial stereotypes. </p>
+      <p>To me, stereotype just happens all the time. As an international student and also an Asian, it has been affecting me since I first came to the United States 6 years ago for college.</p>
+      <p>I can still recall that when I first came to college, there wasa a stereotype that local americans believe Asian don't speak English. Thus, at that time, there were actually quite a few other local students refused to talk to me, or try to mock at me given my English ability. This is definitely not true and appropriate. Although I do agree that this steretype were created given the history that US immigrants were poor and poor-educated, however, there are also many international students who received decent education in their hometown but still decided to study abroad in order to widen their horizon. Personally, I could speak decent English at the time when I entered college. But I can still definitely expericen that stereotype even when I am graduated from college last year. I guess it is not something you can change easily. Perhaps it takes years or decades? But that is also what make America special.</p>
+
+    </div>
+    </div>
+
+    <div class="Article">
+    <div id="t5">
+      <a href="../blog/t5-ruby-classes.html">
+      <h3>Week 5: My Technical Blog</h3></a>
+      <h4>Ruby Classes</h4>
+      <h4>Established October 17th, 2014</h4>
+      <p>This week, we will be talking about Class in Ruby. </p>
+      <p>Classes in Ruby are first-class objects---each is an instance of class Class.</p>
+      <p>Typically, you create a new class by using:</p>
+      <p>class Name<br>   some class describing the class behavior<br>end</p>
+      <p>When a new class is created, an object of type Class is initialized and assigned to a global constant (Name in this case).<br>When Name.new is called to create a new object, the new method in Class is run by default.</p>
+      <p>Classes, modules, and objects are interrelated. In the diagram that follows, the vertical arrows represent inheritance, and the parentheses meta-classes. All metaclasses are instances of the class `Class'.</p>
+      <p>Below is another very simple example of class:</p>
+      <p>class Class<br>    alias oldNew  new<br>    def new(*args)<br>        print "Creating a new ", self.name, "\n"<br>        oldNew(*args)<br>    end<br>end<br>class Name<br>end<br>n = Name.new</p>
+      <p>What do you think? Not too hard to learn, right?</p>
+    </div>
+    </div>
+
+    <div class="Article">
+    <div id="c5">
+      <a href="../blog/c5-feedback.html">
+      <h3>Week 5: My Culturabl Blog</h3></a>
+      <h4>Feedbacks</h4>
+      <h4>Established October 17th, 2014</h4>
+      <p>Let's talk about feedbacks!</p>
+      <p>Feedback is very important. Having feedback from others will allow you to able to reflect yourself in the view of others. When I read my feedback from others, I will also try to recall the pairing session me and the partners were having. I tried to connect to the whole scene, so that I will be able to truly reflect my behaviors. I mean, I like feedback. It is because I feel like everytime when I read some feedback, I will be able to improve the way I talk, the way I code, and the way I interact with others. Thus, feedback is definitely helpful to my learning.</p>
+      <p>I also write feedbacks. When I write feedbacks, I try not to be too critical, but instead make it like an open discussion, and extend my opinions to others so that when the reader reads the feedback I wrote, they will be able to elaborate the idea I wanted to bring out. </p>
+      <p>What about you? Do you like feedback? If so, why?</p>
+    </div>
+    </div>
+
+    <div class="Article">
+    <div id="t4">
+      <a href="../blog/t4-enumerable-methods.html">
+      <h3>Week 4: My Technical Blog</h3></a>
+      <h4>Enumerable Methods</h4>
+      <h4>Established October 10th, 2014</h4>
+      <p>Today, we eill be discussing about Enumerable Methods in Ruby. Sometimes, Enumerables methods are very useful which it can indeed help your code to be short and clear. However, it is also somehow difficult to understand.</p>
+      <p>Let's talk about .map method</p>
+      <p>So, map method is a method that will iterate through every single element in the array in your Ruby code. Let's take a look at the below example: </p>
+      <p>[1,2,3,4].map {|i| i + 1}</p>
+      <p># print: [2, 3, 4, 5]</p>
+      <p>As you can see, if we use the map method, it will loop through all 4 elements in the array, and do whatever we want it to do. In this case: we want to return every number with +1. </p>
+      <p>So it isn't that hard, huh? In fact, map method is very powerful when it comes to a situation that you need to use it in conjunction with many other arrays and enumerable methods. Such like: </p>
+      <p>[1,2,3,4].map.to_s</p>
+      <p># print: ["1", "2", "3", "4"]</p>
+      <p> Alright, I hope you learned something. Lets talk about Ruby again next week!</p>
+    </div>
+    </div>
+
+    <div class="Article">
+    <div id="c4">
+      <a href="../blog/c4-tech-issues.html">
+      <h3>Week 4: My Cultural Blog</h3></a>
+      <h4>Patent legislation</h4>
+      <h4>Established October 10th, 2014</h4>
+      <p>Today I want to talk about some issues that is happening in the tech industry. To me, the whole tech world is kinda new. However, I do believe it is time to learn more about what's really happening out there, especially when I really start working in the tech industry.</p>
+      <p>Congress passed major patent reform legislation just a few years ago, and most observers predicted it would be a generation before Congress returned to the issue. </p>
+      <p>But the problem of "patent trolls" — firms that use bogus patent suits to extort settlements out of businesses — has escalated so quickly that Congress is now poised to pass new legislation to curb abuse.</p>
+      <p>Silicon Valley, retail groups and other business interests are lobbying hard for legislation to crack down on patent trolls. But one major fissure has emerged —Google wants companies to be empowered to challenge the validity of software patents, while Microsoft strongly opposes the proposal. </p>
+      <p>Some judges and trial lawyers have also expressed concern about a provision that would force courts to award legal fees to winning parties in certain cases. </p>
+      <p>The House approved patent legislation from Judiciary Committee Chairman Bob Goodlatte (R-Va.) in December, and the Senate Judiciary Committee is expected to move its own bill in the New Year. </p>
+      <p>So this is only one of many issues that is happening nowadays in the tech industry. Do you have more to share?</p>
     </div>
     </div>
 
