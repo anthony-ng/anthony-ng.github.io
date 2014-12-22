@@ -29,6 +29,9 @@ body {
     background: url("http://i62.tinypic.com/v477ew.png");
     background-size: contain;
     z-index: 2;
+    border: 1px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .nagigation_bar #logo.hover {
@@ -37,6 +40,12 @@ body {
 
 .navigation_bar .navigation_bar_button.first {
     margin-left: 65px;
+}
+
+.navigation_bar .navigation_bar_button.last {
+    border: 1px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .navigation_bar .navigation_bar_button {
