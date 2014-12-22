@@ -1,15 +1,21 @@
 .navigation_bar #logo {
-  position: fixed;
-  width: 65px;
-  background-image:url("http://www.asdlincoln.co.uk/images_logo/A%20LOGO%20NEW5.jpg");
+    position: fixed;
+    width: 65px;
+    background: url("http://www.asdlincoln.co.uk/images_logo/A%20LOGO%20NEW5.jpg");
+    background-size: contain;
+    z-index: 2;
+}
+
+.nagigation_bar #logo.hover {
+    cursor: pointer;
 }
 
 .navigation_bar .navigation_bar_button {
-  float: left;
-  position: relative;
-  background-color: red;
+    float: left;
+    position: relative;
+    background-color: red;
 }
 
 .navigation_bar_button li {
-  height: 65px;
+    height: 65px;
 }
