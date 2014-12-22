@@ -1,3 +1,10 @@
-anthony-ng.github.io
-====================
-THIS IS MY AWESOME REPO!!!
+# Anthony's Portfolio Website
+
+I tried to make a portfolio website to display my past projects and to let people to easily connect with me.
+
+Visitors are able to click on the projects which opens the project in a new tab. They are also able to click on the social-media icons to get easily linked.
+
+It was my 1st repo, and I enjoyed building it!
+
+## Link to Project:
+* [anthony-ng.github.io](anthony-ng.github.io)
