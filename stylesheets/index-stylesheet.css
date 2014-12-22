@@ -1,7 +1,16 @@
+.navigation_bar {
+    position: fixed;
+    z-index: 3;
+}
+
+.navigation ul {
+    overflow: hidden;
+}
+
 .navigation_bar #logo {
     position: fixed;
     width: 65px;
-    background: url("http://www.asdlincoln.co.uk/images_logo/A%20LOGO%20NEW5.jpg");
+    background: url("http://ideasinspiringinnovation.files.wordpress.com/2010/01/logo_sports-team-w-letter-a_us-2.jpg");
     background-size: contain;
     z-index: 2;
 }
@@ -10,12 +19,37 @@
     cursor: pointer;
 }
 
+.navigation_bar .navigation_bar_button.first {
+    margin-left: 65px;
+}
+
 .navigation_bar .navigation_bar_button {
     float: left;
     position: relative;
-    background-color: red;
+    background-color: #fff;
+    margin-left: 0;
+    -webkit-transition: margin-left 0.5s;
+    transition: margin-left 0.5s;
 }
 
-.navigation_bar_button li {
+.navigation_bar li {
     height: 65px;
+}
+
+.navigation_bar .navigation_bar_button a {
+    display: block;
+    width: 100%;
+    padding: 22px 40px 0;
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
