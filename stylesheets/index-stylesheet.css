@@ -1,3 +1,9 @@
+.navigation_bar #logo {
+  position: fixed;
+  width: 65px;
+  background-image:url("http://www.asdlincoln.co.uk/images_logo/A%20LOGO%20NEW5.jpg");
+}
+
 .navigation_bar .navigation_bar_button {
   float: left;
   position: relative;
