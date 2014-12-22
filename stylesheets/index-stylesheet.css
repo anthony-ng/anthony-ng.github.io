@@ -92,14 +92,14 @@ div {
 }
 
 .big_module {
-    width: 60%;
+    width: 59%;
     height: 400px;
     position: relative;
     float: left;
 }
 
 .medium_module {
-    width: 40%;
+    width: 39%;
     height: 400px;
     padding: 0;
     float: left;
@@ -114,7 +114,7 @@ div {
 }
 
 .extra_small_module {
-    width: 20%;
+    width: 19%;
     height: 400px;
     position: relative;
     float: left;
