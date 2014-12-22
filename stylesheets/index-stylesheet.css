@@ -14,11 +14,6 @@ body {
     margin: 0 auto;
 }
 
-div {
-    border: 1px solid;
-    border-color: black;
-}
-
 .navigation_bar {
     position: fixed;
     z-index: 3;
@@ -85,21 +80,15 @@ div {
     color: #fff;
 }
 
-#about_me {
-    background: url("#");
-    background-size: cover;
-    padding-top: 80px;
-}
-
 .big_module {
-    width: 59%;
+    width: 60%;
     height: 400px;
     position: relative;
     float: left;
 }
 
 .medium_module {
-    width: 39%;
+    width: 40%;
     height: 400px;
     padding: 0;
     float: left;
@@ -114,8 +103,35 @@ div {
 }
 
 .extra_small_module {
-    width: 19%;
+    width: 20%;
     height: 400px;
     position: relative;
     float: left;
+}
+
+#about_me {
+    background: url("#");
+    background-size: cover;
+    background-color: red;
+/*    padding-top: 80px;*/
+}
+
+#portfolio_3 {
+    background-color: green;
+}
+
+#portfolio_2 {
+    background-color: orange;
+}
+
+#portfolio_1 {
+    background-color: yellow;
+}
+
+#gallery {
+    background-color: navy;
+}
+
+#blog {
+    background-color: purple;
 }
