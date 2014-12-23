@@ -25,7 +25,7 @@ body {
 
 .navigation_bar #logo {
     position: fixed;
-    width: 65px;
+    width: 55px;
     background: url("http://i62.tinypic.com/v477ew.png");
     background-size: contain;
     z-index: 2;
@@ -39,7 +39,7 @@ body {
 }
 
 .navigation_bar .navigation_bar_button.first {
-    margin-left: 65px;
+    margin-left: 55px;
 }
 
 .navigation_bar .navigation_bar_button.last {
@@ -64,7 +64,7 @@ body {
 }
 
 .navigation_bar li {
-    height: 65px;
+    height: 55px;
     list-style-type: none;
 }
 
@@ -74,7 +74,7 @@ body {
     height: 100%;
     padding: 22px 40px 0;
     font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 20px;
     color: blue;
@@ -104,7 +104,6 @@ body {
 }
 
 .big_module h1 {
-/*    background: red;*/
     float: left;
     padding: 4px 16px;
     font-size: 45px;
@@ -152,7 +151,6 @@ body {
 #about_me {
     background: url("http://i60.tinypic.com/25slrwh.jpg");
     background-size: cover;
-    background-color: red;
 /*    padding-top: 80px;*/
 }
 
@@ -167,21 +165,76 @@ body {
 }
 
 #portfolio_3 {
-    background-color: green;
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");
+    background-size: cover;
+}
+
+#portfolio_3_text {
+    width: 280px;
+    padding-top: 150px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: left;
 }
 
 #portfolio_2 {
-    background-color: orange;
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.09.05.png?_subject_uid=18962626&w=AAAIclqy_FgkFRxKsbz7IP19WEIxqztS5NmbyZqJlIKEOg");
+    background-size: cover;
+}
+
+#portfolio_2_text {
+    width: 280px;
+    padding-top: 150px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: left;
 }
 
 #portfolio_1 {
-    background-color: yellow;
+    background: url("http://fusecreates.com/wp-content/uploads/2011/12/Pinterest.jpg");
+    background-size: cover;
+}
+
+#portfolio_1_text {
+    width: 280px;
+    padding-top: 150px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: left;
 }
 
 #gallery {
-    background-color: navy;
+    background: url("http://www.picturesnew.com/media/images/photography-wallpaper1.jpg");
+    background-size: cover;
+}
+
+#gallery_text {
+    width: 280px;
+    padding-top: 150px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: left;
 }
 
 #blog {
-    background-color: purple;
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.15.30.png?_subject_uid=18962626&w=AAAN1ocrR3vHSDL6cJoNLlpiQOgRL-mBh0Mmumx0iHTqng");
+    background-size: contain;
+}
+
+#blog_text {
+    width: 280px;
+    padding-top: 150px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    text-align: left;
 }
