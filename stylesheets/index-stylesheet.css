@@ -104,25 +104,25 @@ body {
 }
 
 .big_module h1 {
-    background: red;
+/*    background: red;*/
     float: left;
     padding: 4px 16px;
     font-size: 45px;
     font-weight: 700;
     font-family: "Alegreya Sans";
-    color: #fff;
+/*    color: #fff;*/
     margin: 0;
 }
 
 .big_module h3 {
-    background: red;
+/*    background: red;*/
     float: left;
     padding: 4px 12px;
     font-size: 20px;
     line-height: 30px;
     font-weight: 100;
     font-family: "Alegreya Sans";
-    color: #fff;
+/*    color: #fff;*/
     margin-top: -5px;
     margin-bottom: -5px;
 }
@@ -152,7 +152,7 @@ body {
 #about_me {
     background: url("http://i60.tinypic.com/25slrwh.jpg");
     background-size: cover;
-/*    background-color: red;*/
+    background-color: red;
 /*    padding-top: 80px;*/
 }
 
@@ -164,10 +164,6 @@ body {
     bottom: 25px;
     left: 25px;
     text-align: left;
-}
-
-#about_me_text p {
-/*    background-color: gold;*/
 }
 
 #portfolio_3 {
