@@ -1,6 +1,6 @@
 # Anthony's Portfolio Website
 
-I tried to make a portfolio website to display my past projects and to let people to easily connect with me.
+This is a portfolio website to display my past projects and to let people to easily connect with me.
 
 Visitors are able to click on the projects which opens the project in a new tab. They are also able to click on the social-media icons to get in touch with me.
 
