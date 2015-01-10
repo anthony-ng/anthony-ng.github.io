@@ -1,4 +1,4 @@
-# Anthony's Portfolio Website
+# Anthony Ng's Portfolio Website
 
 This is a portfolio website to display my past projects and to let people to easily connect with me.
 
