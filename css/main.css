@@ -15,7 +15,8 @@ body {
 }
 
 .navigation_bar {
-    position: fixed;
+    /*position: fixed;*/
+    /*padding-bottom: 30px;*/
     z-index: 3;
 }
 
@@ -100,7 +101,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 25px;
+    /*padding: 25px;*/
 }
 
 .big_module h1 {
@@ -161,6 +162,8 @@ body {
 /*    color: #fff;*/
     margin-top: -5px;
     margin-bottom: -5px;
+    /*color: yellow;*/
+    background:rgba(255,255,255,0.5);
 }
 
 .small_module {
@@ -244,59 +247,90 @@ body {
 /*    padding-top: 80px;*/
 }
 
-#about_me_text, #portfolio_6_text {
+#about_me_text {
     width: 280px;
-    padding-top: 150px;
+    padding-top: 10px;
     font-family: Georgia;
     position: absolute;
     bottom: 25px;
     left: 25px;
     text-align: left;
+    background:rgba(255,255,255,0.5);
 }
 
 
-#portfolio_2_text, #portfolio_1_text, #portfolio_5_text, #portfolio_6_text {
-    width: 280px;
-    padding-top: 150px;
+#portfolio_1_text, #portfolio_2_text {
+    /*width: 280px;*/
+    /*padding-top: 150px;*/
     font-family: Georgia;
     position: absolute;
-    bottom: 25px;
-    left: 25px;
+    bottom: 20px;
+    left: 20px;
     text-align: left;
+    width: 30%;
+    background:rgba(255,255,255,0.5);
+}
+
+#portfolio_3_text, #portfolio_4_text {
+    font-family: Georgia;
+    /*position: absolute;*/
+    top: 70px;
+    left: 20px;
+    text-align: left;
+    width: 300%;
+    /*color: yellow;*/
+    background:rgba(255,255,255,0.5);
+}
+
+#portfolio_5_text, #portfolio_6_text {
+    width: 30%;
+    padding-top: 10px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 15px;
+    left: 250px;
+    text-align: left;
+    background:rgba(255,255,255,0.5);
 }
 
 #portfolio_1 {
-    /*background: url("http://fusecreates.com/wp-content/uploads/2011/12/Pinterest.jpg");*/
-    background-color: red;
+    background: url("../img/hackernews.png");
     background-size: cover;
+    /*background-color: red;*/
 }
 
 #portfolio_2 {
-    /*background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.09.05.png?_subject_uid=18962626&w=AAAIclqy_FgkFRxKsbz7IP19WEIxqztS5NmbyZqJlIKEOg");*/
-    background-color: orange;
-    background-size: cover;
+    background: url("../img/moviehub.png");
+    background-size: 125%;
+    background-position: top;
+    /*background-color: orange;*/
 }
 
 #portfolio_3 {
-    /*background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");*/
-    background-color: yellow;
-    background-size: cover;
+    background: url("../img/connect4.png");
+    background-size: 150%;
+    background-position: center;
+    /*background-color: yellow;*/
 }
 
 #portfolio_4 {
-    /*background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");*/
-    background: green;
+    background: url("../img/twitter.png");
     background-size: cover;
+    background-position: center;
+    /*background: green;*/
 }
 
 #portfolio_5 {
-    /*background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");*/
-    background-color: blue;
-    background-size: cover;
+    background: url("../img/nevernote.png");
+    background-size: 110%;
+    background-position: top;
+    /*background-color: blue;*/
 }
 #portfolio_6 {
-    background-color: gray;
-    background-size: cover;
+    background: url("../img/craigslist.png");
+    background-size: 110%;
+    background-position: top;
+    /*background-color: gray;*/
 }
 
 
@@ -311,33 +345,38 @@ body {
 }
 
 #gallery {
-    background: url("http://www.picturesnew.com/media/images/photography-wallpaper1.jpg");
-    background-size: cover;
+    background: url("../img/gallery.png");
+    background-size: 103%;
 }
 
 #gallery_text {
-    width: 280px;
-    padding-top: 150px;
+    width: 15%;
+    padding-top: 5px;
     font-family: Georgia;
     position: absolute;
     bottom: 25px;
     left: 25px;
     text-align: left;
+    /*background-color: red;*/
+    background:rgba(255,255,255,0.5);
 }
 
 #blog {
-    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.15.30.png?_subject_uid=18962626&w=AAAN1ocrR3vHSDL6cJoNLlpiQOgRL-mBh0Mmumx0iHTqng");
-    background-size: contain;
+    background: url("../img/blog.png");
+    background-size: 120%;
+    background-position: left;
+    /*background-repeat: no-repeat;*/
 }
 
 #blog_text {
-    width: 280px;
-    padding-top: 150px;
+    width: 30%;
+    padding-top: 5px;
     font-family: Georgia;
     position: absolute;
     bottom: 25px;
     left: 25px;
     text-align: left;
+    background:rgba(255,255,255,0.5);
 }
 
 /*Gallery Page*/
