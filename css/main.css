@@ -339,3 +339,11 @@ body {
     left: 25px;
     text-align: left;
 }
+
+/*Gallery Page*/
+#gallery_body {
+    width: 1200px;
+    height: 1600px;
+    background: url("../img/gallery.png");
+    background-repeat: no-repeat;
+}
