@@ -244,7 +244,7 @@ body {
 /*    padding-top: 80px;*/
 }
 
-#about_me_text {
+#about_me_text, #portfolio_6_text {
     width: 280px;
     padding-top: 150px;
     font-family: Georgia;
@@ -254,27 +254,8 @@ body {
     text-align: left;
 }
 
-#portfolio_3 {
-    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");
-    background-size: cover;
-}
 
-#portfolio_3_text {
-    width: 280px;
-    padding-top: 150px;
-    font-family: Georgia;
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    text-align: left;
-}
-
-#portfolio_2 {
-    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.09.05.png?_subject_uid=18962626&w=AAAIclqy_FgkFRxKsbz7IP19WEIxqztS5NmbyZqJlIKEOg");
-    background-size: cover;
-}
-
-#portfolio_2_text {
+#portfolio_2_text, #portfolio_3_text, #portfolio_4_text, #portfolio_5_text {
     width: 280px;
     padding-top: 150px;
     font-family: Georgia;
@@ -288,6 +269,30 @@ body {
     background: url("http://fusecreates.com/wp-content/uploads/2011/12/Pinterest.jpg");
     background-size: cover;
 }
+
+#portfolio_2 {
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.09.05.png?_subject_uid=18962626&w=AAAIclqy_FgkFRxKsbz7IP19WEIxqztS5NmbyZqJlIKEOg");
+    background-size: cover;
+}
+
+#portfolio_3 {
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");
+    background-size: cover;
+}
+
+#portfolio_4 {
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");
+    background-size: cover;
+}
+
+#portfolio_5 {
+    background: url("https://dl-web.dropbox.com/get/Screenshots/Screenshot%202014-12-22%2017.11.08.png?_subject_uid=18962626&w=AAApx0LeslsEI9ldHak4YZZZApoOJuBPbHsXN5N5S5245Q");
+    background-size: cover;
+}
+#portfolio_6 {
+    background-color: gray;
+}
+
 
 #portfolio_1_text {
     width: 280px;
