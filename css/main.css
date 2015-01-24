@@ -12,11 +12,11 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: -20px;
 }
 
 .navigation_bar {
-    /*position: fixed;*/
-    /*padding-bottom: 30px;*/
+    position: fixed;
     z-index: 3;
 }
 
@@ -264,8 +264,8 @@ body {
     /*padding-top: 150px;*/
     font-family: Georgia;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 15px;
+    left: 15px;
     text-align: left;
     width: 30%;
     background:rgba(255,255,255,0.5);
@@ -295,7 +295,8 @@ body {
 
 #portfolio_1 {
     background: url("../img/hackernews.png");
-    background-size: cover;
+    background-size: 130%;
+    background-position: left;
     /*background-color: red;*/
 }
 
