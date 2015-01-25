@@ -290,7 +290,7 @@ body {
     font-family: Georgia;
     position: absolute;
     bottom: 15px;
-    left: 20px;
+    left: 10px;
     text-align: center;
     font-weight: bold;
     background:rgba(255,255,255,0.5);
@@ -380,4 +380,17 @@ body {
     height: 1600px;
     background: url("../img/gallery.png");
     background-repeat: no-repeat;
+}
+
+
+/*About page*/
+.about_text, #about_title {
+    width: 80%;
+    padding-left: 30px;
+    /*text-align: center;*/
+}
+
+#about_page {
+    background: url("../img/about.jpg");
+    background-size: cover;
 }
