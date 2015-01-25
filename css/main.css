@@ -110,7 +110,7 @@ body {
     font-size: 45px;
     font-weight: 700;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    color: black;
     margin: 0;
 }
 
@@ -122,7 +122,7 @@ body {
     line-height: 30px;
     font-weight: 100;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    color: black;
     margin-top: -5px;
     margin-bottom: -5px;
 }
@@ -193,15 +193,15 @@ body {
 
 .small_module h3 {
 /*    background: red;*/
-    float: left;
-    padding: 4px 12px;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 100;
-    font-family: "Alegreya Sans";
+    /*float: left;*/
+    /*padding: 4px 12px;*/
+    /*font-size: 20px;*/
+    /*line-height: 30px;*/
+    /*font-weight: bold;*/
+    /*font-family: "Alegreya Sans";*/
 /*    color: #fff;*/
-    margin-top: -5px;
-    margin-bottom: -5px;
+    /*margin-top: -5px;*/
+    /*margin-bottom: -5px;*/
 }
 
 .extra_small_module {
@@ -259,37 +259,40 @@ body {
 }
 
 
-#portfolio_1_text, #portfolio_2_text {
+#portfolio_1_text h3, #portfolio_2_text h3 {
     /*width: 280px;*/
     /*padding-top: 150px;*/
     font-family: Georgia;
     position: absolute;
-    bottom: 15px;
-    left: 15px;
-    text-align: left;
-    width: 30%;
-    background:rgba(255,255,255,0.5);
+    bottom: 10px;
+    left: 320px;
+    text-align: center;
+    width: 25%;
+    font-weight: bold;
+    /*background:rgba(255,255,255,0.5);*/
 }
 
-#portfolio_3_text, #portfolio_4_text {
+#portfolio_3_text h3, #portfolio_4_text h3 {
     font-family: Georgia;
+    font-weight: bold;
     /*position: absolute;*/
     top: 70px;
     left: 20px;
     text-align: left;
-    width: 300%;
+    width: 25%;
     /*color: yellow;*/
     background:rgba(255,255,255,0.5);
 }
 
-#portfolio_5_text, #portfolio_6_text {
+#portfolio_5_text h3, #portfolio_6_text h3 {
     width: 30%;
     padding-top: 10px;
     font-family: Georgia;
     position: absolute;
     bottom: 15px;
-    left: 250px;
-    text-align: left;
+    left: 20px;
+    text-align: center;
+    font-weight: bold;
     background:rgba(255,255,255,0.5);
 }
 
@@ -334,26 +337,16 @@ body {
     /*background-color: gray;*/
 }
 
-
-#portfolio_1_text {
-    width: 280px;
-    padding-top: 150px;
-    font-family: Georgia;
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    text-align: left;
-}
-
 #gallery {
     background: url("../img/gallery.png");
     background-size: 103%;
 }
 
-#gallery_text {
+#gallery_text h3 {
     width: 15%;
     padding-top: 5px;
     font-family: Georgia;
+    font-weight: bold;
     position: absolute;
     bottom: 25px;
     left: 25px;
@@ -369,10 +362,11 @@ body {
     /*background-repeat: no-repeat;*/
 }
 
-#blog_text {
+#blog_text h3 {
     width: 30%;
     padding-top: 5px;
     font-family: Georgia;
+    font-weight: bold;
     position: absolute;
     bottom: 25px;
     left: 25px;
