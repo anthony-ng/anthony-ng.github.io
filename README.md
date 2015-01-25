@@ -7,4 +7,4 @@ Visitors are able to click on the projects which opens the project in a new tab.
 It was my 1st repo, and I enjoyed building it!
 
 ## Link to Project:
-* [anthony-ng.github.io](anthony-ng.github.io)
+* [anthony-ng.github.io](https://anthony-ng.github.io)
