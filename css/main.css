@@ -265,9 +265,9 @@ body {
     font-family: Georgia;
     position: absolute;
     bottom: 10px;
-    left: 320px;
-    text-align: center;
-    width: 25%;
+    left: 290px;
+    text-align: right;
+    width: 60px;
     font-weight: bold;
     /*background:rgba(255,255,255,0.5);*/
 }
