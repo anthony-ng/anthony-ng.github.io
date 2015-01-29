@@ -95,6 +95,7 @@ body {
     height: 400px;
     position: relative;
     float: left;
+    color: black;
 }
 
 .big_module a {
@@ -132,6 +133,7 @@ body {
     height: 400px;
     padding: 0;
     float: left;
+    color: black;
 }
 
 .medium_module a {
@@ -139,6 +141,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 25px;
+    color: black;
 }
 
 .medium_module h1 {
@@ -149,6 +152,7 @@ body {
     font-family: "Alegreya Sans";
 /*    color: #fff;*/
     margin: 0;
+    color: black;
 }
 
 .medium_module h3 {
@@ -163,7 +167,8 @@ body {
     margin-top: -5px;
     margin-bottom: -5px;
     /*color: yellow;*/
-    background:rgba(255,255,255,0.5);
+    background:rgba(217, 123, 123, 0.7);
+    color: black;
 }
 
 .small_module {
@@ -172,6 +177,7 @@ body {
     position: relative;
     box-sizing: border-box;
     float: left;
+    color: black;
 }
 
 .small_module a {
@@ -209,6 +215,7 @@ body {
     height: 400px;
     position: relative;
     float: left;
+    color: black;
 }
 
 .extra_small_module a {
@@ -255,7 +262,7 @@ body {
     bottom: 25px;
     left: 25px;
     text-align: left;
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.3);
 }
 
 
@@ -265,11 +272,11 @@ body {
     font-family: Georgia;
     position: absolute;
     bottom: 10px;
-    left: 290px;
+    left: 310px;
     text-align: right;
-    width: 60px;
+    width: 100px;
     font-weight: bold;
-    /*background:rgba(255,255,255,0.5);*/
+    background:rgba(255,255,255,0.7);
 }
 
 #portfolio_3_text h3, #portfolio_4_text h3 {
@@ -281,7 +288,7 @@ body {
     text-align: left;
     width: 25%;
     /*color: yellow;*/
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.7);
 }
 
 #portfolio_5_text h3, #portfolio_6_text h3 {
@@ -293,7 +300,7 @@ body {
     left: 10px;
     text-align: center;
     font-weight: bold;
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.7);
 }
 
 #portfolio_1 {
@@ -352,7 +359,7 @@ body {
     left: 25px;
     text-align: left;
     /*background-color: red;*/
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.7);
 }
 
 #blog {
@@ -371,7 +378,8 @@ body {
     bottom: 25px;
     left: 25px;
     text-align: left;
-    background:rgba(255,255,255,0.5);
+    background:rgba(255,255,255,0.7);
+    color: black;
 }
 
 /*Gallery Page*/
