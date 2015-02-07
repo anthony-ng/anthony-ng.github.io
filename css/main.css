@@ -405,3 +405,23 @@ ul.nav a:hover {
     background: url("../img/about.jpg");
     background-size: cover;
 }
+
+.social {
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.social a {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+#contact_body {
+    background-image: url('../img/berkeley.jpg');
+    background-size: cover;
+}
