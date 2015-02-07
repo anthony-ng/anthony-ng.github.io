@@ -21,6 +21,11 @@ body {
     margin: 0 auto;
 }
 
+.nav li {
+    width: 170px;
+    padding-left: 50px;
+}
+
 .big_module {
     width: 60%;
     height: 400px;
