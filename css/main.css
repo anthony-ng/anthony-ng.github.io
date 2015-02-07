@@ -376,21 +376,21 @@ body {
 #blog {
     background: url("../img/blog.png");
     background-size: 120%;
-    background-position: left;
+    background-position: center;
     /*background-repeat: no-repeat;*/
 }
 
 #blog_text h3 {
-    width: 30%;
+    width: 40%;
     padding-top: 5px;
     font-family: Georgia;
     font-weight: bold;
     position: absolute;
 /*    bottom: 25px;
     left: 25px;*/
-    margin-top: 200px;
-    margin-left: 100px;
-    text-align: left;
+    margin-top: 310px;
+    margin-left: 80px;
+    text-align: center;
     background:rgba(255,255,255,0.7);
     color: black;
 }
