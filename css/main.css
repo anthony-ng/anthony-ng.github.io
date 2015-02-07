@@ -336,8 +336,8 @@ body {
 
 #portfolio_2 {
     background: url("../img/cinephiles.png");
-    background-size: 125%;
-    background-position: top;
+    background-size: contain;
+    background-position: center;
     /*background-color: orange;*/
 }
 
