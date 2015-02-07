@@ -9,10 +9,16 @@ body {
 }
 
 #wrapper {
-    width: 81%;
-    max-width: 1300px;
+    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     /*margin-top: -20px;*/
+}
+
+.navbar {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .big_module {
@@ -41,7 +47,7 @@ body {
 }
 
 .big_module h3 {
-/*    background: red;*/
+    /*    background: red;*/
     float: left;
     padding: 4px 12px;
     font-size: 20px;
@@ -75,20 +81,20 @@ body {
     font-size: 45px;
     font-weight: 700;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    /*    color: #fff;*/
     margin: 0;
     color: black;
 }
 
 .medium_module h3 {
-/*    background: red;*/
+    /*    background: red;*/
     float: left;
     padding: 4px 12px;
     font-size: 20px;
     line-height: 30px;
     font-weight: 100;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    /*    color: #fff;*/
     margin-top: -5px;
     margin-bottom: -5px;
     /*color: yellow;*/
@@ -118,19 +124,19 @@ body {
     font-size: 45px;
     font-weight: 700;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    /*    color: #fff;*/
     margin: 0;
 }
 
 .small_module h3 {
-/*    background: red;*/
+    /*    background: red;*/
     /*float: left;*/
     /*padding: 4px 12px;*/
     /*font-size: 20px;*/
     /*line-height: 30px;*/
     /*font-weight: bold;*/
     /*font-family: "Alegreya Sans";*/
-/*    color: #fff;*/
+    /*    color: #fff;*/
     /*margin-top: -5px;*/
     /*margin-bottom: -5px;*/
 }
@@ -156,19 +162,19 @@ body {
     font-size: 45px;
     font-weight: 700;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    /*    color: #fff;*/
     margin: 0;
 }
 
 .extra_small_module h3 {
-/*    background: red;*/
+    /*    background: red;*/
     float: left;
     padding: 4px 12px;
     font-size: 20px;
     line-height: 30px;
     font-weight: 100;
     font-family: "Alegreya Sans";
-/*    color: #fff;*/
+    /*    color: #fff;*/
     margin-top: -5px;
     margin-bottom: -5px;
 }
@@ -176,7 +182,7 @@ body {
 #about_me {
     background: url("http://i60.tinypic.com/25slrwh.jpg");
     background-size: cover;
-/*    padding-top: 80px;*/
+    /*    padding-top: 80px;*/
 }
 
 #about_me_text {
@@ -325,12 +331,12 @@ body {
     font-weight: bold;
     position: absolute;
 /*    bottom: 25px;
-    left: 25px;*/
-    margin-top: 310px;
-    margin-left: 80px;
-    text-align: center;
-    background:rgba(255,255,255,0.7);
-    color: black;
+left: 25px;*/
+margin-top: 310px;
+margin-left: 80px;
+text-align: center;
+background:rgba(255,255,255,0.7);
+color: black;
 }
 
 /*Gallery Page*/
