@@ -386,14 +386,18 @@ ul.nav a:hover {
     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
 
-#gallery_back {
+#back {
     color: white;
+    padding-left: 30px;
 }
 
 /*About page*/
 .about_text, #about_title {
     width: 80%;
     padding-left: 30px;
+    font-size: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
     /*text-align: center;*/
 }
 
