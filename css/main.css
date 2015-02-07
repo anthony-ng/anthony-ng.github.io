@@ -225,9 +225,9 @@ ul.nav a:hover {
     font-family: Georgia;
     position: absolute;
     bottom: 10px;
-    left: 340px;
+    left: 350px;
     text-align: right;
-    width: 80px;
+    width: 100px;
     font-weight: bold;
     background:rgba(255,255,255,0.7);
 }
@@ -273,8 +273,8 @@ ul.nav a:hover {
     padding-top: 10px;
     font-family: Georgia;
     position: absolute;
-    bottom: 15px;
-    left: 10px;
+    bottom: 5px;
+    left: 5px;
     text-align: center;
     font-weight: bold;
     background:rgba(255,255,255,0.7);
@@ -352,13 +352,11 @@ ul.nav a:hover {
     font-family: Georgia;
     font-weight: bold;
     position: absolute;
-/*    bottom: 25px;
-left: 25px;*/
-margin-top: 310px;
-margin-left: 80px;
-text-align: center;
-background:rgba(255,255,255,0.7);
-color: black;
+    margin-top: 300px;
+    margin-left: 110px;
+    text-align: center;
+    background:rgba(255,255,255,0.7);
+    color: black;
 }
 
 /*Gallery Page*/
