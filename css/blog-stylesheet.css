@@ -1,4 +1,4 @@
-html {
+body {
   background-color: #0099ff;
   background-image:url("http://sugarchalet.files.wordpress.com/2012/11/blog-background1.jpg");
   color: black;
@@ -130,4 +130,32 @@ h3 {
   font-size:25px;
   font-color:black;
   border-top:2px solid black;
+}
+
+.navbar {
+    /*width: 80%;*/
+    /*max-width: 1200px;*/
+    /*margin: 0 auto;*/
+}
+
+.outside_nav {
+    /*width: 170px;*/
+    padding-left: 50px;
+    font-size: 1.3em;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-left: 30px;
+}
+
+.dropdown-menu li {
+    text-align: center;
+}
+
+ul.nav a:hover {
+    color: blue !important;
+    /*background-color: red !important;*/
+}
+
+.dropdown-menu a {
 }
