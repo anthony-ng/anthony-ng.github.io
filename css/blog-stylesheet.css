@@ -139,8 +139,8 @@ h3 {
 }
 
 .outside_nav {
-    /*width: 170px;*/
-    padding-left: 50px;
+    width: 170px;
+    padding-left: 56px;
     font-size: 1.3em;
 }
 
