@@ -17,8 +17,8 @@ body {
 
 .navbar {
     /*width: 80%;*/
-    max-width: 1200px;
-    margin: 0 auto;
+    /*max-width: 1200px;*/
+    /*margin: 0 auto;*/
 }
 
 .outside_nav {
@@ -395,10 +395,14 @@ ul.nav a:hover {
 .about_text, #about_title {
     width: 80%;
     padding-left: 30px;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-family: 'Alegreya Sans', sans-serif;
     color: white;
     /*text-align: center;*/
+    /*padding-top: 50px;*/
+}
+
+#about_title {
     padding-top: 50px;
 }
 
