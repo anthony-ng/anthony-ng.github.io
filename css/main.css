@@ -267,13 +267,26 @@ ul.nav a:hover {
     margin-top: 290px;
 }
 
-#portfolio_5_text h3, #portfolio_6_text h3 {
+#portfolio_5_text h3 {
     display: none;
     width: 30%;
     padding-top: 10px;
     font-family: Georgia;
     position: absolute;
     bottom: 5px;
+    left: 5px;
+    text-align: center;
+    font-weight: bold;
+    background:rgba(255,255,255,0.7);
+}
+
+#portfolio_6_text h3 {
+    display: none;
+    width: 30%;
+    padding-top: 10px;
+    font-family: Georgia;
+    position: absolute;
+    bottom: 25px;
     left: 5px;
     text-align: center;
     font-weight: bold;
