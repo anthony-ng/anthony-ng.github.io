@@ -25,8 +25,8 @@ body {
 }
 
 .outside_nav {
-    width: 170px;
-    padding-left: 50px;
+    width: 160px;
+    padding-left: 40px;
     font-size: 1.3em;
 }
 
@@ -223,8 +223,7 @@ ul.nav a:hover {
 
 
 #portfolio_1_text h3 {
-    /*width: 280px;*/
-    /*padding-top: 150px;*/
+    display: none;
     font-family: Georgia;
     position: absolute;
     bottom: 10px;
@@ -236,42 +235,40 @@ ul.nav a:hover {
 }
 
 #portfolio_2_text h3 {
-    /*width: 280px;*/
-    /*padding-top: 150px;*/
+    display: none;
     font-family: Georgia;
     position: absolute;
     bottom: 10px;
     left: 320px;
     text-align: left;
-    /*width: 100px;*/
     font-weight: bold;
     background:rgba(255,255,255,0.7);
 }
 
 #portfolio_3_text h3 {
+    display: none;
     font-family: Georgia;
     font-weight: bold;
-    /*position: absolute;*/
     top: 70px;
     left: 20px;
     text-align: left;
     width: 25%;
-    /*color: yellow;*/
     background:rgba(255,255,255,0.7);
 }
 
 #portfolio_4_text h3 {
+    display: none;
     font-family: Georgia;
     font-weight: bold;
     text-align: left;
     width: 25%;
-    /*color: yellow;*/
     background:rgba(255,255,255,0.7);
     margin-left: 300px;
     margin-top: 290px;
 }
 
 #portfolio_5_text h3, #portfolio_6_text h3 {
+    display: none;
     width: 30%;
     padding-top: 10px;
     font-family: Georgia;
@@ -286,42 +283,35 @@ ul.nav a:hover {
 #portfolio_1 {
     background: url("../img/twitter.png");
     background-size: 100%;
-    /*background-position: center;*/
-    /*background-color: red;*/
 }
 
 #portfolio_2 {
     background: url("../img/cinephiles.png");
     background-size: contain;
     background-position: center;
-    /*background-color: orange;*/
 }
 
 #portfolio_3 {
     background: url("../img/connect4.png");
     background-size: 150%;
     background-position: center;
-    /*background-color: yellow;*/
 }
 
 #portfolio_4 {
     background: url("../img/interviewgarden.png");
     background-size: cover;
     background-position: left;
-    /*background: green;*/
 }
 
 #portfolio_5 {
     background: url("../img/nevernote.png");
     background-size: 110%;
     background-position: top;
-    /*background-color: blue;*/
 }
 #portfolio_6 {
     background: url("../img/craigslist.png");
     background-size: 110%;
     background-position: top;
-    /*background-color: gray;*/
 }
 
 #gallery {
@@ -330,6 +320,7 @@ ul.nav a:hover {
 }
 
 #gallery_text h3 {
+    display: none;
     width: 15%;
     padding-top: 5px;
     font-family: Georgia;
@@ -350,6 +341,7 @@ ul.nav a:hover {
 }
 
 #blog_text h3 {
+    display: none;
     width: 40%;
     padding-top: 5px;
     font-family: Georgia;
@@ -427,4 +419,8 @@ ul.nav a:hover {
 #contact_body {
     background-image: url('../img/berkeley.jpg');
     background-size: cover;
+}
+
+#portfolio_1:hover h3, #portfolio_2:hover h3, #portfolio_3:hover h3, #portfolio_4:hover h3, #portfolio_5:hover h3, #portfolio_6:hover h3, #blog:hover h3, #gallery:hover h3 {
+    display:block;
 }
