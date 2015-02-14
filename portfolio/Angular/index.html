@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>My TV Show Library</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="main.ctrl.js"></script>
+</head>
+
+<!-- 2) Tell angular to use the module 'app' in body -->
+<!-- 4) Declared the controller -->
+<body ng-app="app" ng-controller="MainController as main">
+  <div class="container">
+    <!-- 6) Display AJS variable using curly braces -->
+    <h1>{{main.title}}</h1>
+
+
+    <div class="input-group">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-search"></span>
+      </span>
+      <!-- bind the input to the searchInput using ng-model -->
+      <input type="text" class="form-control" ng-model="main.searchInput">
+    </div>
+    <h3>A list of TV shows</h3>
+    <ul class="list-group">
+      <!-- Add filter with ng-repeat to display and filter repeated content -->
+      <!-- Add orderBy filter specifying which key of the show object we want to order by -->
+      <li class="list-group-item" ng-repeat="show in main.shows | filter:main.searchInput | orderBy:main.order.key:main.order.reverse">
+        <!-- Add ng-if to show/hide whose show.favorite is true -->
+        <span class="glyphicon glyphicon-star" ng-if="show.favorite"></span>
+        {{show.title}}
+        <span class="badge">{{show.year}}</span>
+      </li>
+    </ul>
+    <!-- To populate the select menu we use the ngOptions directive -->
+    <select class="form-control pull-right" ng-model="main.order" ng-options="order as order.title for order in main.orders"></select>
+    <!-- ============================================== -->
+    <!-- Created form that allows the user to enter a show title, year and specify if its favorite -->
+    <div class="clearfix"></div>
+    <h3>Add a new TV Show</h3>
+    <!-- added ngSubmit to trigger addShow function  -->
+    <form name="main.addForm" class="form" ng-submit="main.addShow()">
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" ng-model="main.new.title" required />
+        </div>
+        <div class="form-group">
+            <label>Year</label>
+            <input type="number" min="1900" max="2030" class="form-control" ng-model="main.new.year" required />
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <label>Favorite: <input type="checkbox" ng-model="main.new.favorite" /></label>
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-success pull-right"><span class="glyphicon glyphicon-plus-sign"></span> Add</button>
+            </div>
+        </div>
+    </form>
+  </div>
+  <h4 style="text-align:center">By Anthony Ng &copy 2015</h4>
+</body>
+</html>
