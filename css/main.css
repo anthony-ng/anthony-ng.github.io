@@ -346,14 +346,14 @@ ul.nav a:hover {
     background:rgba(255,255,255,0.7);
 }
 
-#blog {
+#portfolio_7 {
     background: url("../img/blog.png");
     background-size: 120%;
     background-position: center;
     /*background-repeat: no-repeat;*/
 }
 
-#blog_text h3 {
+#portfolio_7_text h3 {
     display: none;
     width: 40%;
     padding-top: 5px;
@@ -434,6 +434,6 @@ ul.nav a:hover {
     background-size: cover;
 }
 
-#portfolio_1:hover h3, #portfolio_2:hover h3, #portfolio_3:hover h3, #portfolio_4:hover h3, #portfolio_5:hover h3, #portfolio_6:hover h3, #blog:hover h3, #gallery:hover h3 {
+#portfolio_1:hover h3, #portfolio_2:hover h3, #portfolio_3:hover h3, #portfolio_4:hover h3, #portfolio_5:hover h3, #portfolio_6:hover h3, #portfolio_7:hover h3, #gallery:hover h3 {
     display:block;
 }
