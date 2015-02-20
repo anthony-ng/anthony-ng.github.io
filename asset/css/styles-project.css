@@ -381,9 +381,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 #nite-header .title-image-half{
-	max-width:50%;
+	max-width:95%;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 160px;
+    padding-bottom: 20px;
 }
 
 .text-sec-container{
@@ -1318,7 +1319,3 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 /* Our House*/
-/*#ourHouse_video {
-    padding-left: 20px;
-    margin-left: 150px;
-}*/
