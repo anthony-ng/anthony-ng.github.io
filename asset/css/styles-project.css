@@ -142,8 +142,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 -------------------------*/
 
 .add-padding {
-    padding-top:120px;
-    padding-bottom:140px;
+    padding-top:60px;
+    padding-bottom:70px;
 }
 
 .add-padding-top {
@@ -306,7 +306,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     left:50%;
     margin:-32px 0 0 -32px;
     background: url('../images/preloader.gif') no-repeat;
-        
+
 }
 
 /*-----------------------
@@ -596,7 +596,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     margin:0;
     margin-bottom:40px;
     text-align:center;
-    
+
 }
 
 #filter-works ul li{
@@ -780,8 +780,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
       -ms-transition-duration: 0.4s;
        -o-transition-duration: 0.4s;
           transition-duration: 0.4s;
-          
-   transition-timing-function:ease-in-out;    
+
+   transition-timing-function:ease-in-out;
 }
 
 .masonry {
