@@ -11,12 +11,12 @@ body{
 }
 
 a{
-	color:#ee5f5c;
+	/*color:#ee5f5c;*/
 	text-decoration:none
 }
 
 a:hover,a:focus{
-	color:#ee5f5c;
+	/*color:#ee5f5c;*/
 	text-decoration:underline
 }
 
@@ -1173,7 +1173,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .social-links li a:hover {
-    color:#fff;
+    /*color:#fff;*/
     background:#ec5e5b;
 }
 
