@@ -1350,3 +1350,22 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     height: 350px;
     display: inline-block;
 }
+
+/*Connect Four*/
+#connectFour_head {
+    max-width:100%;
+    margin-top: 60px;
+    margin-left: 160px;
+    border-radius: 10px;
+}
+
+#connect4_about {
+    border-radius: 35px;
+    margin-left: -50px;
+}
+
+.connectFour_screenshot {
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 60px
+}
