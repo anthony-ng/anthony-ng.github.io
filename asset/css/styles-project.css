@@ -1343,7 +1343,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 .interview_screenshot {
     border-radius: 15px;
     margin-left: 10px;
-    padding-left: 20px;
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 80px;
     width: 450px;
@@ -1368,4 +1368,39 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     display: inline-block;
     border-radius: 15px;
     margin-bottom: 60px
+}
+
+/*Lil-Twitter*/
+#lilTwitter_header {
+    margin-top: 15px;
+    margin-left: -120px;
+    max-width:120%;
+    border-radius: 5px;
+}
+
+.lilTwitter_screenshot {
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+}
+
+#lilTwitter_team {
+    text-align: center;
+}
+
+.lilTwitter_teammate {
+    display: inline-block;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    font-size: 1.5em;
+}
+
+#first_teammate_LT {
+    padding-left: 23%;
 }
