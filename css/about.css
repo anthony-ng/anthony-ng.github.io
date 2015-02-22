@@ -414,6 +414,7 @@ ul.nav a:hover {
     font-weight: normal;
     text-rendering: optimizeLegibility;
     line-height: 1.6;
+    /*text-indent : 35px;*/
     text-align: center;
     padding-top: 20px;
 }
@@ -421,8 +422,8 @@ ul.nav a:hover {
 #about_title {
     width: 50%;
     margin: 0 auto;
-    font-size: 2.5em;
-    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-size: 2.75em;
+    font-family: 'Signika', sans-serif;
     padding-top: 100px;
     text-align: center;
     line-height: 1.6;
