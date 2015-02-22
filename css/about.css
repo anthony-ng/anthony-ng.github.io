@@ -407,7 +407,7 @@ ul.nav a:hover {
 
 /*About page*/
 .about_text {
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
     font-size: 2em;
     font-family: Quicksand, sans-serif;
@@ -422,7 +422,7 @@ ul.nav a:hover {
 #about_title {
     width: 50%;
     margin: 0 auto;
-    font-size: 2.75em;
+    font-size: 3em;
     font-family: 'Signika', sans-serif;
     padding-top: 100px;
     text-align: center;
