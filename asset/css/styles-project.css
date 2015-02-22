@@ -1404,3 +1404,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 #first_teammate_LT {
     padding-left: 23%;
 }
+
+#lilTwitter_head {
+    max-width:130%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    /*margin-left: 100px;*/
+    border-radius: 5px;
+}
