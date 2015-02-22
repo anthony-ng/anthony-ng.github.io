@@ -57,6 +57,7 @@ ul.nav a:hover {
     padding-top: 80px;
     text-align: center;
     line-height: 1.6;
+    color: white;
 }
 
 .about_text {
@@ -70,18 +71,35 @@ ul.nav a:hover {
     /*text-indent : 35px;*/
     text-align: center;
     padding-top: 5px;
+    color: white;
 }
 
 #about_page {
-    /*background: url("../img/about.jpg");*/
+    background: url("../img/about.jpg");
     background-size: cover;
+}
+
+.about_text a:hover {
+    color: yellow;
+}
+
+.about_text a {
+    color: #E3AC04;
 }
 
 #services h1 {
     font-family: 'Signika', sans-serif;
+    color: white;
+}
+
+#services h3 {
+    color: white;
 }
 
 #services p {
     font-size: 1.5em;
     font-family: Quicksand, sans-serif;
+    color: white;
+    /*background-color: rgba(0,0,0,0.3);*/
+    /*border-radius: 15px;*/
 }
