@@ -407,21 +407,21 @@ ul.nav a:hover {
 
 /*About page*/
 .about_text, #about_title {
-    width: 80%;
-    padding-left: 30px;
-    font-size: 1.7em;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2em;
     font-family: 'Alegreya Sans', sans-serif;
-    color: white;
-    /*text-align: center;*/
+    /*color: white;*/
+    text-align: center;
     /*padding-top: 50px;*/
 }
 
 #about_title {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 #about_page {
-    background: url("../img/about.jpg");
+    /*background: url("../img/about.jpg");*/
     background-size: cover;
 }
 

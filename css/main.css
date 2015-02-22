@@ -400,13 +400,13 @@ ul.nav a:hover {
 }
 
 /*About page*/
-.about_text, #about_title {
+.about_text p, #about_title {
     width: 80%;
     padding-left: 30px;
     font-size: 1.5em;
     font-family: 'Alegreya Sans', sans-serif;
-    color: white;
-    /*text-align: center;*/
+    color: red;
+    text-align: center;
 }
 
 #about_page {
