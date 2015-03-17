@@ -1,6 +1,6 @@
 # Anthony Ng's Portfolio Website
 
-This is a portfolio website to display my past projects and to let people to easily connect with me.
+This is a portfolio website to showcase my past projects and to give a brief self-introduction to the readers. The goal is make it easier for people to get connected with me.
 
 Visitors are able to:
 * click on the projects which opens the project in a new tab
