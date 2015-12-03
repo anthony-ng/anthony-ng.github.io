@@ -9,12 +9,15 @@
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
-        .mapboxgl-ctrl-bottom-right { display: none;}
+        .mapboxgl-ctrl-attrib { display: none;}
+        #footer { right: 0; bottom: 0; display: inline-block; position: absolute;z-index: 999;color: white;}
     </style>
 </head>
 <body>
 
-<div id='map'></div>
+<div id='map'>
+    <div id="footer">&#0169猎奇会</div>
+</div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibGllcWlodWkiLCJhIjoiY2locW9wNXZwMDRtbnQ1bTJ5NmRnbncxZSJ9.iT4N7n3UGYl9qDJg8o1GgA';
 var map = new mapboxgl.Map({
