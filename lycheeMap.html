@@ -20,10 +20,10 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/satellite-hybrid-v8',
     center: [-122.419416, 37.774929],
-    zoom: 6
+    zoom: 9
 });
 
-var direction = 0, manual = false, speed = 1;
+var direction = 0, manual = false, speed = 0.1;
 
 // create a GeoJSON point to serve as a starting point
 var point = {
