@@ -19,8 +19,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGllcWlodWkiLCJhIjoiY2locW9wNXZwMDRtbnQ1bTJ5N
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/satellite-hybrid-v8',
-    center: [-74.50, 40],
-    zoom: 3
+    center: [-122.419416, 37.774929],
+    zoom: 6
 });
 
 var direction = 0, manual = false, speed = 1;
@@ -28,7 +28,7 @@ var direction = 0, manual = false, speed = 1;
 // create a GeoJSON point to serve as a starting point
 var point = {
   "type": "Point",
-  "coordinates": [-74.50, 40]
+  "coordinates": [-122.419416, 37.774929]
 };
 
 // add the GeoJSON above to a new vector tile source
