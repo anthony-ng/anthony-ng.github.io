@@ -9,6 +9,7 @@
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
+        .mapboxgl-ctrl-bottom-right { display: none;}
     </style>
 </head>
 <body>
@@ -19,11 +20,11 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGllcWlodWkiLCJhIjoiY2locW9wNXZwMDRtbnQ1bTJ5N
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/satellite-hybrid-v8',
-    center: [-122.419416, 37.774929],
-    zoom: 9
+    center: [-122.243827, 37.774929],
+    zoom: 11
 });
 
-var direction = 0, manual = false, speed = 0.1;
+var direction = 0, manual = false, speed = 0.03;
 
 // create a GeoJSON point to serve as a starting point
 var point = {
