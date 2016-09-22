@@ -1,0 +1,10 @@
+{
+  "name": "Anthony Ng",
+  "description": "Personal Website",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "jquery": "~2.2.4",
+    "react": "~15.1.0"
+  }
+}
