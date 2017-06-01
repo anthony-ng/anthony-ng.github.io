@@ -10,5 +10,4 @@ Visitors are able to:
 It was my 1st repo, and I enjoyed building it!
 
 ## Link to Project:
-* [tongng.com](http://tongng.com)
-
+* [anthony-ng.com](http://anthony-ng.com)
