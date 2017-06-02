@@ -87,32 +87,30 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="outside_nav"><a href="/">Home</a></li>
-                        <li class="outside_nav"><a href="/about">About</a></li>
+                        <li class="outside_nav"><a href="/" onclick="trackOutboundLink('/'); return false;">>Home</a></li>
+                        <li class="outside_nav"><a href="/about" onclick="trackOutboundLink('/about'); return false;">About</a></li>
                         <li class="dropdown outside_nav">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="https://github.com/anthony-ng?tab=repositories">GitHub List</a></li>
+                                <li><a href="https://github.com/anthony-ng" onclick="trackOutboundLink('https://github.com/anthony-ng'); return false;">GitHub</a></li>
                                 <li class="divider"></li>
-                                <li><a href="/ourHouse">Our House</a></li>
-                                <li><a href="/interview_garden">Interview Garden</a></li>
-                                <li><a href="/cinephiles">Cinephiles</a></li>
-                                <li><a href="http://tongng.com/DBCraigslist">DBCraigslist</a></li>
-                                <li><a href="/connectFour">Connect Four</a></li>
-                                <li><a href="http://tongng.com/JavaScript_Racer">JavaScript Racer</a></li>
-                                <li><a href="http://tongng.com/NEVERNOTE">Neverote</a></li>
-                                <li><a href="/lilTwitter">Little Twitter</a></li>
-                                <li><a href="http://tongng.com/Url-Shortener">Url Shortener</a></li>
-                                <li><a href="http://tongng.com/My-Anagram">My Anagram</a></li>
-                                <li><a href="http://tongng.com/portfolio/angular">My TV Shows Library</a></li>
-                                <!-- <li class="dropdown-header">Nav header</li> -->
-                                <!-- <li><a href="#">Separated link</a></li> -->
+                                <li><a href="/ourHouse" onclick="trackOutboundLink('/ourHouse'); return false;">Our House</a></li>
+                                <li><a href="/interview_garden" onclick="trackOutboundLink('/interview_garden'); return false;">Interview Garden</a></li>
+                                <li><a href="/cinephiles" onclick="trackOutboundLink('/cinephiles'); return false;">Cinephiles</a></li>
+                                <li><a href="http://anthony-ng.com/DBCraigslist/" onclick="trackOutboundLink('http://anthony-ng.com/DBCraigslist/'); return false;">DBCraigslist</a></li>
+                                <li><a href="http://anthony-ng.com/Connect-Four/" onclick="trackOutboundLink('http://anthony-ng.com/Connect-Four/'); return false;">Connect Four</a></li>
+                                <li><a href="http://anthony-ng.com/JavaScript_Racer" onclick="trackOutboundLink('http://anthony-ng.com/JavaScript_Racer'); return false;">JavaScript Racer</a></li>
+                                <li><a href="http://anthony-ng.com/NEVERNOTE" onclick="trackOutboundLink('http://anthony-ng.com/NEVERNOTE'); return false;">Neverote</a></li>
+                                <li><a href="/lilTwitter" onclick="trackOutboundLink('/lilTwitter'); return false;">Little Twitter</a></li>
+                                <li><a href="http://anthony-ng.com/Url-Shortener" onclick="trackOutboundLink('http://anthony-ng.com/Url-Shortener'); return false;">Url Shortener</a></li>
+                                <li><a href="http://anthony-ng.com/My-Anagram" onclick="trackOutboundLink('http://anthony-ng.com/My-Anagram'); return false;">My Anagram</a></li>
+                                <li><a href="/portfolio/angular" onclick="trackOutboundLink('/portfolio/angular'); return false;">My TV Shows Library</a></li>
                             </ul>
                         </li>
-                        <li class="outside_nav"><a href="/asset/AnthonyNg_Resume.pdf" target="_blank">Resume</a></li>
-                        <li class="outside_nav"><a href="/blog">Blog</a></li>
-                        <li class="outside_nav"><a href="http://www.anthonyng.xyz/">Photography</a></li>
-                        <li class="outside_nav"><a href="/contact">Contact <span class="sr-only">(current)</span></a></li>
+                        <li class="outside_nav"><a href="/asset/AnthonyNg_Resume.pdf" target="_blank" onclick="trackOutboundLink('/asset/AnthonyNg_Resume.pdf'); return false;">Resume</a></li>
+                        <li class="outside_nav"><a href="/blog" onclick="trackOutboundLink('/blog'); return false;">Blog</a></li>
+                        <li class="outside_nav"><a href="http://www.anthonyng.xyz/" onclick="trackOutboundLink('http://www.anthonyng.xyz/'); return false;">Photography</a></li>
+                        <li class="outside_nav"><a href="/contact" onclick="trackOutboundLink('/contact'); return false;">Contact <span class="sr-only">(current)</span></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     </ul>
